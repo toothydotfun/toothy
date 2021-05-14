@@ -1,0 +1,1 @@
+function toothy:skyblock/barrier_removal

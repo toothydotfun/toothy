@@ -1,0 +1,4 @@
+execute in custom:spawn at @s run tp @s -2.5 176.1 -10.5
+tellraw @s ["",{"text":"[] ","bold":true},{"text":"This room allows you to spawn on normal survival with some friends.","color":"dark_aqua","bold":false}]
+tellraw @s ["",{"text":"[] ","bold":true},{"text":"Have your friends stand in the water. When you're ready to go, then you can walk onto the warped planks to teleport yourself and everyone in the water to a random location.","color":"dark_aqua","bold":false}]
+tellraw @s ["",{"text":"[] ","bold":true},{"text":"To return to the base of the mountain, type !back.","color":"dark_aqua","bold":false}]

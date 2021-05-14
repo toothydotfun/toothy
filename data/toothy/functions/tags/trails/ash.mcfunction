@@ -1,0 +1,1 @@
+particle ash ~ ~.5 ~ 0 0 0 1 10 normal @a[distance=..32]

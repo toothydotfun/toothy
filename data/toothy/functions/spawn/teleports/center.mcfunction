@@ -1,0 +1,2 @@
+execute as @p[x=0,y=63,z=0,distance=..1,nbt={Dimension:"minecraft:overworld"},gamemode=survival] run trigger welcome add 1
+execute as @p[x=0,y=63,z=0,distance=..1,nbt={Dimension:"minecraft:overworld"},gamemode=survival] run tag @s add spawn.tp

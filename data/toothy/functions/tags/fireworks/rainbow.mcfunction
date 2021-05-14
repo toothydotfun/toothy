@@ -1,0 +1,2 @@
+give @s minecraft:firework_rocket{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680]},{Type:1,Colors:[I;1114367]},{Type:1,Colors:[I;16776960]},{Type:1,Colors:[I;16737792]},{Type:1,Colors:[I;65280]},{Type:1,Colors:[I;6684927]}]}} 64
+tag @s remove fwks.rainbow

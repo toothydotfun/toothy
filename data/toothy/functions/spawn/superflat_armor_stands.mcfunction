@@ -1,0 +1,6 @@
+execute positioned ~ ~ ~ run kill @e[type=armor_stand,distance=..100]
+summon minecraft:armor_stand ~ ~6 ~ {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,CustomName:'{"text":"Welcome to the Superflat Dimension.","color":"green"}'}
+summon minecraft:armor_stand ~ ~4 ~ {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,CustomName:'{"text":"Type !sethome to set a home here.","color":"green"}'}
+summon minecraft:armor_stand ~ ~3 ~ {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,CustomName:'{"text":"Type !spawn to return to spawn.","color":"green"}'}
+summon minecraft:armor_stand ~ ~2 ~ {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,CustomName:'{"text":"This dimension was created in October of 2020.","color":"green"}'}
+summon minecraft:armor_stand ~ ~1 ~ {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,CustomName:'{"text":"We recommend playing here without bringing in items from your overworld base.","color":"green"}'}

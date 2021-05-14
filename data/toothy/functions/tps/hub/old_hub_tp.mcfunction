@@ -1,0 +1,1 @@
+execute in custom:the_void run tp @s 0 120 0

@@ -1,0 +1,4 @@
+execute in custom:spawn at @s run tp @s -3.5 186.126 -7.5
+tellraw @s ["",{"text":"[] ","bold":true},{"text":"This room allows you to spawn on a skyblock island with some friends.","color":"dark_aqua","bold":false}]
+tellraw @s ["",{"text":"[] ","bold":true},{"text":"Have your friends stand in the water. When you're ready to go, then you can walk onto the warped planks to teleport yourself and everyone in the water onto a new island.","color":"dark_aqua","bold":false}]
+tellraw @s ["",{"text":"[] ","bold":true},{"text":"To return to the base of the mountain, type !back.","color":"dark_aqua","bold":false}]

@@ -1,0 +1,11 @@
+tellraw @s[tag=!novillagers] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Use this menu to spawn specialized villagers on your skyblock island, your superflat base, or in your stoneblock cave. This will not spawn villagers in any other dimension. You may only spawn one of each type of villager every 3 hours. Click on a villager name below to spawn it at your current location.","color":"dark_aqua"}]
+tellraw @s[tag=!novillagers] ""
+tellraw @s[tag=!novillagers] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Hunter (trades blocks)","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!villager blocks"}}]
+tellraw @s[tag=!novillagers] ""
+tellraw @s[tag=!novillagers] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Rosa (trades miscellaneous materials)","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!villager materials"}}]
+tellraw @s[tag=!novillagers] ""
+tellraw @s[tag=!novillagers] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Guillame (trades ores)","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!villager ores"}}]
+tellraw @s[tag=!novillagers] ""
+tellraw @s[tag=!novillagers] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Venetia (trades plants)","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!villager plants"}}]
+tellraw @s[tag=!novillagers] ""
+tellraw @s[tag=!novillagers] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Rupert (trades spawn eggs)","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!villager eggs"}}]

@@ -1,0 +1,10 @@
+function echoes:spawn/teleports/skyblock
+function echoes:spawn/teleports/superflat
+function echoes:spawn/teleports/superflat_group
+function echoes:spawn/teleports/superflat_group_2
+function echoes:spawn/teleports/overworld_group
+function echoes:spawn/teleports/overworld_group_2
+function echoes:spawn/teleports/skyblock_group
+function echoes:spawn/teleports/skyblock_group_4
+function echoes:spawn/teleports/center
+function echoes:spawn/teleports/overworld

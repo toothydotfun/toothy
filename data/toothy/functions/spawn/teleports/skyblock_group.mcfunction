@@ -1,0 +1,1 @@
+execute in custom:spawn as @p[x=-10.5,y=129,z=13.5,distance=..1,nbt={Dimension:"custom:spawn"},gamemode=adventure] at @s run function echoes:spawn/teleports/skyblock_group_1

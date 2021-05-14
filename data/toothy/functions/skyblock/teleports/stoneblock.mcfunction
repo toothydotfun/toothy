@@ -1,0 +1,1 @@
+execute as @p[x=32,y=120,z=-20,distance=..1,nbt={Dimension:"custom:the_void"},tag=!stcooldown,gamemode=survival] run advancement grant @s only echoes:tostoneblock

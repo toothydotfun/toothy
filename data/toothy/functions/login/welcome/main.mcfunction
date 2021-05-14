@@ -1,0 +1,1 @@
+execute as @a[team=] at @s run function toothy:login/welcome/init

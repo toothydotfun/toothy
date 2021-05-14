@@ -1,0 +1,1 @@
+function toothy:tps/skyblock/basic_island

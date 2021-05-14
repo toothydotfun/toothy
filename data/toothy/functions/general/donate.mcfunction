@@ -1,0 +1,3 @@
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Click below to donate to Toothy:","color":"aqua"}]
+tellraw @s ""
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://toothy.fun/donate","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://toothy.fun/donate"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to donate!","color":"aqua"}]}}]

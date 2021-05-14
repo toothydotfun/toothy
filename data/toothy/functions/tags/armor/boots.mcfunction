@@ -1,0 +1,2 @@
+give @a[tag=armor.boots,gamemode=creative,tag=admin] leather_boots{display:{color:16757504},Unbreakable:1b,Enchantments:[{id:"minecraft:protection",lvl:1000s},{id:"minecraft:fire_protection",lvl:1000s},{id:"minecraft:feather_falling",lvl:1000s},{id:"minecraft:thorns",lvl:1000s},{id:"minecraft:unbreaking",lvl:10s},{id:"minecraft:vanishing_curse",lvl:1s},{id:"minecraft:soul_speed",lvl:10s}]}
+tag @a remove armor.boots

@@ -1,0 +1,1 @@
+execute as @a[tag=radio.init,tag=!noradio] at @s run function toothy:radio/init

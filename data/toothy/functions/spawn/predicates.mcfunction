@@ -1,0 +1,1 @@
+execute if predicate echoes:chance_fifth run function echoes:hospitality/nostalgia

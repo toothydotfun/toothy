@@ -1,0 +1,1 @@
+execute as @p[x=246484,y=11,z=917720,distance=..1,nbt={Dimension:"custom:the_void"},gamemode=survival] run function echoes:skyblock/teleports/nasa_supplies

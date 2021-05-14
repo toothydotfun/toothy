@@ -1,0 +1,2 @@
+function toothy:login/welcome/main
+execute as @a[team=!bots] if score @s relog matches 1.. run function toothy:login/relog

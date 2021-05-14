@@ -1,0 +1,20 @@
+stopsound @a master
+schedule clear toothy:radio/playlist/africa
+schedule clear toothy:radio/playlist/backinblack
+schedule clear toothy:radio/playlist/closetome
+schedule clear toothy:radio/playlist/dontfearthereaper
+schedule clear toothy:radio/playlist/erika
+schedule clear toothy:radio/playlist/feelgoodinc
+schedule clear toothy:radio/playlist/herecomesthesun
+schedule clear toothy:radio/playlist/smokeonthewater
+schedule clear toothy:radio/playlist/takeonme
+schedule clear toothy:radio/playlist/touchofgrey
+schedule clear toothy:radio/playlist/karmapolice
+schedule clear toothy:radio/playlist/knivesout
+schedule clear toothy:radio/playlist/herecomesyourman
+schedule clear toothy:radio/playlist/everybreathyoutake
+schedule clear toothy:radio/playlist/comfortablynumb
+schedule clear toothy:radio/playlist/aqualung
+schedule clear toothy:radio/playlist/thismustbetheplace
+schedule clear toothy:radio/playlist/bigiron
+function toothy:radio/playlist/africa

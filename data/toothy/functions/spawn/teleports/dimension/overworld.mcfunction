@@ -1,0 +1,2 @@
+execute as @p[x=0,y=129,z=17,distance=..1,nbt={Dimension:"custom:spawn"},gamemode=adventure] run tag @s remove spawncooldown
+execute as @p[x=0,y=129,z=17,distance=..1,nbt={Dimension:"custom:spawn"},gamemode=adventure] run function echoes:spawn/teleports/dimension/overworld_2

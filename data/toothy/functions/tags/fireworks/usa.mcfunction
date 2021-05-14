@@ -1,0 +1,2 @@
+give @s minecraft:firework_rocket{Fireworks:{Explosions:[{Type:1,Colors:[I;16711680]},{Type:1,Colors:[I;255]},{Type:1,Trail:1b,Colors:[I;16777215]},{Type:2,Trail:1b,Colors:[I;16777215]},{Type:2,Colors:[I;16711680]},{Type:2,Colors:[I;255]},{Type:0,Colors:[I;16711680]},{Type:0,Colors:[I;255]},{Type:0,Trail:1b,Colors:[I;16777215]}]}} 64
+tag @s remove fwks.usa

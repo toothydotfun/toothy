@@ -1,0 +1,1 @@
+execute in custom:spawn as @p[x=6.5,y=177,z=-3.5,distance=..1,nbt={Dimension:"custom:spawn"},gamemode=adventure] at @s run function echoes:spawn/teleports/overworld_group_3

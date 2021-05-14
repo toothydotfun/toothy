@@ -1,0 +1,1 @@
+particle campfire_cosy_smoke ~ ~.5 ~ 0 0 0 1 10 normal @a
