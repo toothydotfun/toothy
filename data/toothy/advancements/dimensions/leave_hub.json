@@ -9,12 +9,12 @@
               "max": -30
             }
           },
-          "dimension": "custom:donor"
+          "dimension": "custom:hub"
         }
       }
     }
   },
   "rewards": {
-    "function": "toothy:tps/leave_donor"
+    "function": "toothy:tps/leave_hub"
   }
 }
