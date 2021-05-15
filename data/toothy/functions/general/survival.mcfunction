@@ -1,3 +1,4 @@
+tellraw @s ["",{"text":"[] ","color":"white"},{"text":"You\'ve been placed into Survival Mode.","color":"aqua"}]
 gamemode survival @s
 advancement revoke @s only toothy:gamemodes/donor
 advancement revoke @s only toothy:gamemodes/the_end
