@@ -9,7 +9,7 @@
             "entity": "this",
             "predicate": {
               "location": {
-                "dimension": "minecraf:overworld"
+                "dimension": "minecraft:overworld"
               },
               "player": {
                 "gamemode": "adventure"
