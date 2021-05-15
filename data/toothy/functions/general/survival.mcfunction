@@ -1,6 +1,6 @@
 gamemode survival @s
-advancement revoke @s only toothy:donor_survival
-advancement revoke @s only toothy:end_survival
-advancement revoke @s only toothy:nether_survival
-advancement revoke @s only toothy:ow_survival
-advancement revoke @s only toothy:space_survival
+advancement revoke @s only toothy:gamemodes/donor
+advancement revoke @s only toothy:gamemodes/the_end
+advancement revoke @s only toothy:gamemodes/the_nether
+advancement revoke @s only toothy:gamemodes/the_overworld
+advancement revoke @s only toothy:gamemodes/the_void
