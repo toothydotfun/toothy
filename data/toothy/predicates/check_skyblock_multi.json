@@ -1,0 +1,22 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "location": {
+      "position": {
+        "y": {
+          "min": 58,
+          "max": 59
+        }
+      },
+      "dimension": "custom:hub",
+      "fluid": {
+        "fluid": "minecraft:water",
+        "tag": "minecraft:water"
+      }
+    },
+    "player": {
+      "gamemode": "adventure"
+    }
+  }
+}
