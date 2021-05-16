@@ -8,9 +8,9 @@ tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Type !help to view all of the available commands.","color":"aqua"}]
 tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You can view the server's rules by typing !rules. To join our Discord, type !discord.","color":"aqua"}]
-#tellraw @s ""
-#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you'd like to try playing skyblock, type !skyblock. To play in our superflat dimension, type !superflat.","color":"dark_aqua"}]
-#tellraw @s ""
+tellraw @s ""
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you'd like to try playing skyblock, type !skyblock. To play in our superflat dimension, type !superflat.","color":"dark_aqua"}]
+tellraw @s ""
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"For a random teleport out of spawn, try typing !wild or !rtp.","color":"dark_aqua"}]
 #tellraw @s ""
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"To set a home, type !sethome. To teleport to a friend, type !tpa <their username>.","color":"dark_aqua"}]
@@ -41,9 +41,9 @@ tag @s add help
 execute if entity @a[team=] run give @s filled_map{display:{Name:'{"text":"Manny the Welcome Map","color":"gold","italic":true}',Lore:['{"text":"Welcome to Toothy!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],map:100000} 1
 execute if entity @a[team=] run give @s birch_sapling{display:{Name:'{"text":"Sasha the Welcome Sapling","color":"gold","italic":true}',Lore:['{"text":"Welcome to Toothy!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:smite",lvl:3s}]} 1
 execute if entity @a[team=] run give @s orange_bed{display:{Name:'{"text":"Berry the Welcome Bed","color":"gold","italic":true}',Lore:['{"text":"Welcome to Toothy!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:smite",lvl:3s}]} 1
-#execute if entity @a[team=] run give @s minecraft:wooden_pickaxe{display:{Name:'{"text":"Perry the Welcome Pick","color":"gold"}',Lore:['{"text":"Welcome to Toothy!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:knockback",lvl:6s}]} 1
+execute if entity @a[team=] run give @s minecraft:wooden_pickaxe{display:{Name:'{"text":"Perry the Welcome Pick","color":"gold"}',Lore:['{"text":"Welcome to Toothy!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:knockback",lvl:6s}]} 1
 execute if entity @a[team=] run give @s minecraft:honey_bottle{display:{Name:'{"text":"Henry the Welcome Honey","color":"gold"}',Lore:['{"text":"Welcome to Toothy!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:fire_aspect",lvl:3s}]} 3
-#execute if entity @a[team=] run give @s minecraft:writable_book{display:{Name:'{"text":"Journal","color":"green"}',Lore:['{"text":"Leather-bound and tattered.","color":"light_purple","italic":true}']},pages:["Use this book to chronicle your journey out of spawn, or anything else you'd like to write about. Leave it behind for other players to read, or take it with you for nostalgia!"]} 1
+execute if entity @a[team=] run give @s minecraft:writable_book{display:{Name:'{"text":"Journal","color":"green"}',Lore:['{"text":"Leather-bound and tattered.","color":"light_purple","italic":true}']},pages:["Use this book to chronicle your journey out of spawn, or anything else you'd like to write about. Leave it behind for other players to read, or take it with you for nostalgia!"]} 1
 
 #tag @s add spawndim
 #execute if entity @s[team=] as @s[team=] in custom:spawn run tp @s 0 1000 0
