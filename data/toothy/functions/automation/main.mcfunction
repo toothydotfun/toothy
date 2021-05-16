@@ -1,5 +1,5 @@
 
-function echoes:automation/roads_control
+function toothy:automation/roads_control
 #execute if entity @p[name=_saltshaker,tag=destroy] run function echoes:automation/destroy
 #execute if entity @p[tag=removetrees] as @p[tag=removetrees] run function echoes:automation/remove_trees
 #execute if entity @p[tag=scan] as @p[tag=scan] run function scan:startscan
