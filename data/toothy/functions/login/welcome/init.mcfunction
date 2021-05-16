@@ -9,8 +9,7 @@ tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Type !help to
 tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You can view the server's rules by typing !rules. To join our Discord, type !discord.","color":"aqua"}]
 tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you'd like to try playing skyblock, type !skyblock. To play in our superflat dimension, type !superflat.","color":"dark_aqua"}]
-tellraw @s ""
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you'd like to try playing skyblock, type !skyblock.","color":"aqua"}]
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"For a random teleport out of spawn, try typing !wild or !rtp.","color":"dark_aqua"}]
 #tellraw @s ""
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"To set a home, type !sethome. To teleport to a friend, type !tpa <their username>.","color":"dark_aqua"}]
