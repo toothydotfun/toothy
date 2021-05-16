@@ -7,7 +7,7 @@ execute if score @s road_timer matches 5 at @s run fill ~-1 ~-1 ~ ~-1 ~-1 ~ mine
 execute if score @s road_timer matches 6 at @s run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:cut_sandstone
 execute if score @s road_timer matches 7 at @s run fill ~ ~-1 ~1 ~ ~-1 ~1 minecraft:cut_sandstone
 execute if score @s road_timer matches 8 at @s run fill ~ ~-1 ~2 ~ ~-1 ~2 minecraft:cut_sandstone
-execute if score @s road_timer matches 9 at @s run setblock ~-2 ~ ~2 torch
+execute if score @s road_timer matches 9 at @s run setblock ~2 ~ ~-2 torch
 execute if score @s road_timer matches 9.. run scoreboard players set @s road_timer 0
 
 #execute if score @s road_timer matches 3 at @s run fill ~1 ~-2 ~1 ~-1 ~-2 ~-1 minecraft:obsidian
