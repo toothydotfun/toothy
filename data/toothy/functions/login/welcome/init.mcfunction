@@ -3,6 +3,7 @@ tellraw _saltshaker ["",{"text":"CATALOGUE12: "},{"selector":"@s"}]
 
 tellraw @a[team=!] ["",{"text":"[] ","bold":true,"color":"white"},{"selector":"@s","color":"aqua","hoverEvent":{"action":"show_text","contents":{"text":"pooping right now","color":"aqua"}}},{"text":" has just joined Toothy for the first time. Say howdy! This makes ","color":"aqua","clickEvent":{"action":"run_command","value":"howdy"},"hoverEvent":{"action":"show_text","contents":{"text":"click here to say hi!","color":"aqua"}}},{"score":{"name":"CONTROL","objective":"playerCount"},"color":"aqua"},{"text":" unique logins since April 3rd of 2021!","color":"aqua"}]
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Welcome to Toothy. Type !help to view all available commands. We HIGHLY encourage you to join our community Discord: ","color":"aqua"},{"text":"https://toothy.fun/discord","color":"dark_aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://toothy.fun/discord"}}]
+tellraw @s ""
 tellraw @s ["",{"text":"===================","color":"dark_aqua","strikethrough":true}]
 tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Type !help to view all of the available commands.","color":"aqua"}]
@@ -15,7 +16,6 @@ tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you'd like
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"To set a home, type !sethome. To teleport to a friend, type !tpa <their username>.","color":"dark_aqua"}]
 tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Have you enabled our server resource pack? If so, try typing !radio on.","color":"aqua"}]
-tellraw @s ""
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You\'ve spawned in a random location. If you die, you won\'t respawn here!","color":"aqua"}]
 
 title @s times 15 60 15
