@@ -3,7 +3,7 @@ tag @a[team=specialneeds] add specialneeds
 team join Player @a[team=specialneeds,tag=!specialneeds]
 team join Player @a[team=nospecialneeds,tag=!specialneeds]
 team join specialneeds @a[tag=specialneeds]
-replaceitem entity @a[team=specialneeds] armor.head minecraft:turtle_helmet{display:{Name:'{"text":"RETARD HAT","color":"yellow","bold":true}',Lore:['{"text":"For Skull Protection","color":"dark_gray","italic":true}']},Enchantments:[{id:"minecraft:feather_falling",lvl:-1s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}]}
+item replace entity @a[team=specialneeds] armor.head with minecraft:turtle_helmet{display:{Name:'{"text":"RETARD HAT","color":"yellow","bold":true}',Lore:['{"text":"For Skull Protection","color":"dark_gray","italic":true}']},Enchantments:[{id:"minecraft:feather_falling",lvl:-1s},{id:"minecraft:binding_curse",lvl:1s},{id:"minecraft:vanishing_curse",lvl:1s}]}
 execute at @a[tag=specialneeds] run particle dust 1.000 0.000 0.000 4 ~ ~.5 ~ 0 0 0 1 1 force @a[distance=..32]
 execute at @a[tag=specialneeds] run particle dust 1.000 0.498 0.000 4 ~ ~.5 ~ 0 0 0 1 1 force @a[distance=..32]
 execute at @a[tag=specialneeds] run particle dust 1.000 1.000 0.000 4 ~ ~.5 ~ 0 0 0 1 1 force @a[distance=..32]
