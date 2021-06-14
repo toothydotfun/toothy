@@ -16,7 +16,8 @@ tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you'd like
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"To set a home, type !sethome. To teleport to a friend, type !tpa <their username>.","color":"dark_aqua"}]
 tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Have you enabled our server resource pack? If so, try typing !radio on.","color":"aqua"}]
-#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You\'ve spawned in a random location. If you die, you won\'t respawn here!","color":"aqua"}]
+tellraw @s ""
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"NOTE: You\'ve spawned in a random location. If you die, you won\'t respawn here!","color":"red"}]
 
 title @s times 15 60 15
 title @s title ["",{"text":"Welcome to Toothy.","color":"aqua"}]
@@ -35,7 +36,7 @@ tag @a remove tpacooldown
 tag @a remove wildcooldown
 #tag @a[team=] add echoesbday
 #tag @a[team=] add uhc
-#execute as @s[team=] run function tpa:tpwild
+execute as @s[team=] run function tpa:tpwild
 
 #give @a[team=] minecraft:stick{display:{Name:'{"text":"Sparkler"}'}} 1
 
