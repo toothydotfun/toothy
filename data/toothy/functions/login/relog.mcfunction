@@ -5,6 +5,8 @@ tellraw @s ["",{"text":"Click here","underlined":true,"color":"dark_aqua","click
 tellraw @s ""
 tellraw @s ["",{"text":"=================================","color":"dark_aqua","strikethrough":true}]
 #tag @s add topic
+tag @a remove tpacooldown
+tag @a remove wildcooldown
 #tellraw @s ["",{"text":"Current Topic:","color":"dark_aqua"}]
 #execute if entity @p[scores={relog=1..}] run tellraw _saltshaker ["",{"text":"TOPIC12: "},{"selector":"@a[scores={relog=1..1000}]"}]
 execute if entity @s[name=_saltshaker] run carpet customMOTD _

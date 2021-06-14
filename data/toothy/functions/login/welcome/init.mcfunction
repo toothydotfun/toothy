@@ -31,6 +31,8 @@ scoreboard players set @s vote_timer 0
 scoreboard players add @s voted 0
 
 tag @s add help
+tag @a remove tpacooldown
+tag @a remove wildcooldown
 #tag @a[team=] add echoesbday
 #tag @a[team=] add uhc
 #execute as @s[team=] run function tpa:tpwild
