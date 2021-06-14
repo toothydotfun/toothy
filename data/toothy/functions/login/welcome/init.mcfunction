@@ -50,6 +50,6 @@ execute if entity @a[team=] run give @s minecraft:writable_book{display:{Name:'{
 #tag @s add spawndim
 #execute if entity @s[team=] as @s[team=] in custom:spawn run tp @s 0 1000 0
 #execute if entity @s[team=] as @s[team=] run function echoes:hospitality/tp_to_spawn
-spreadplayers 0 0 0 40 under 150 true @s
+#spreadplayers 0 0 0 40 under 150 true @s
 scoreboard players set @s welcome 0
 team join Player @s
