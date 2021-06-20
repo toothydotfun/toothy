@@ -2,10 +2,14 @@ scoreboard players add CONTROL playerCount 1
 tellraw _saltshaker ["",{"text":"CATALOGUE12: "},{"selector":"@s"}]
 
 tellraw @a[team=!] ["",{"text":"[] ","bold":true,"color":"white"},{"selector":"@s","color":"aqua","hoverEvent":{"action":"show_text","contents":{"text":"pooping right now","color":"aqua"}}},{"text":" has just joined Toothy for the first time. Say howdy! This makes ","color":"aqua","clickEvent":{"action":"run_command","value":"howdy"},"hoverEvent":{"action":"show_text","contents":{"text":"click here to say hi!","color":"aqua"}}},{"score":{"name":"CONTROL","objective":"playerCount"},"color":"aqua"},{"text":" unique logins since April 3rd of 2021!","color":"aqua"}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Welcome to Toothy. We HIGHLY encourage you to join our community Discord: ","color":"aqua"},{"text":"https://toothy.fun/discord","color":"dark_aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://toothy.fun/discord"}}]
+tellraw @s ""
 tellraw @s ["",{"text":"===================","color":"dark_aqua","strikethrough":true}]
 title @s times 15 60 15
 title @s title ["",{"text":"Welcome to Toothy.","color":"aqua"}]
 title @s subtitle ["",{"text":"A tutorial will appear in chat shortly.","color":"dark_aqua"}]
+tag @s add tutorial.help
+schedule function toothy:login/welcome/tutorial/help 15s
 
 execute if entity @a[team=] run execute as @a at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ .25 .5
 execute if entity @a[team=] run execute as @a at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ .25 1

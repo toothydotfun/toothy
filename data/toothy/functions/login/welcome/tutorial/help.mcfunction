@@ -1,12 +1,9 @@
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Type !help to view all of the available commands.","color":"aqua"}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You can view the server's rules by typing !rules. To join our Discord, type !discord.","color":"aqua"}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you'd like to try playing skyblock, type !skyblock.","color":"aqua"}]
-#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"For a random teleport out of spawn, try typing !wild or !rtp.","color":"dark_aqua"}]
-#tellraw @s ""
-#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"To set a home, type !sethome. To teleport to a friend, type !tpa <their username>.","color":"dark_aqua"}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Have you enabled our server resource pack? If so, try typing !radio on.","color":"aqua"}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"NOTE: You\'ve spawned in a random location. If you die, you won\'t respawn here!","color":"red"}]
+
+execute at @s as @s[tag=tutorial.help] run playsound block.amethyst_block.hit master @s ~ ~ ~ 20 2
+tellraw @s[tag=tutorial.help] ""
+tellraw @s[tag=tutorial.help] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"If you\'re curious about our custom commands, you can type !help to get a link to our server\'s commands page.","color":"aqua"}]
+tellraw @s[tag=tutorial.help] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Click here to view the server's commands page (1/7).","underlined":true,"color":"aqua","clickEvent":{"action":"open_url","value":"https://toothy.fun/commands"}}]
+tellraw @s[tag=tutorial.help] ""
+tag @s remove tutorial.help
+tag @s add tutorial.rules
+schedule function toothy:login/welcome/tutorial/rules 15s
