@@ -43,3 +43,4 @@ execute if entity @a[team=] run give @s minecraft:writable_book{display:{Name:'{
 #spreadplayers 0 0 0 40 under 150 true @s
 scoreboard players set @s welcome 0
 team join Player @s
+scoreboard players add TOOTHY playerCount 1

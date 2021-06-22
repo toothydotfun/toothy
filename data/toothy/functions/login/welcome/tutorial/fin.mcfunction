@@ -5,3 +5,4 @@ tellraw @a[tag=tutorial.fin] ["",{"text":"[] ","bold":true,"color":"white"},{"te
 tellraw @a[tag=tutorial.fin] ""
 tag @a[tag=tutorial.fin] remove tutorial.fin
 schedule function toothy:login/welcome/tutorial/fin 15s
+scoreboard players add TUTORIAL playerCount 1
