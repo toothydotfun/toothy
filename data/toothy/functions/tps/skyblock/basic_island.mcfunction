@@ -14,4 +14,4 @@ tellraw @s ["",{"text":"[] ","bold":true},{"text":"Every item in the game can be
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"To set a home here, type !sethome. You can have up to 5 homes; all must have unique names.","color":"aqua","bold":false}]
 #tellraw @s ["",{"text":"[] ","bold":true},{"text":"If a friend wants to come to you, they can type !tpa <your username>. You both must vote twice in order to TPA. Type !vote to vote.","color":"aqua","bold":false}]
 tag @s remove basic_island
-execute if entity @s[tag=skbleader] as @s at @s run function toothy:tps/hub/skyblock_multi_tp_3
+execute if entity @s[tag=skbleader] as @s at @s run function echoes:tps/hub/skyblock_multi_tp_3

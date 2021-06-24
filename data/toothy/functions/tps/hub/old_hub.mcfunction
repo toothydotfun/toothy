@@ -1,1 +1,1 @@
-execute as @p[x=0,y=69,z=37.5,distance=..1,nbt={Dimension:"custom:hub"},gamemode=adventure] run function toothy:tps/hub/old_hub_tp
+execute as @p[x=0,y=69,z=37.5,distance=..1,nbt={Dimension:"custom:hub"},gamemode=adventure] run function echoes:tps/hub/old_hub_tp

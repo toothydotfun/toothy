@@ -1,1 +1,1 @@
-execute as @a[team=] at @s run function toothy:login/welcome/init
+execute as @a[team=] at @s run function echoes:login/welcome/init

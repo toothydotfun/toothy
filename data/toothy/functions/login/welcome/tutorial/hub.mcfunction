@@ -5,4 +5,4 @@ tellraw @a[tag=tutorial.hub] ["",{"text":"[] ","bold":true,"color":"white"},{"te
 tellraw @a[tag=tutorial.hub] ""
 tag @a[tag=tutorial.hub] add tutorial.fin
 tag @a[tag=tutorial.hub] remove tutorial.hub
-schedule function toothy:login/welcome/tutorial/fin 15s
+schedule function echoes:login/welcome/tutorial/fin 15s

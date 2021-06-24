@@ -1,1 +1,1 @@
-execute in custom:hub positioned 0 69 0 run function toothy:tps/hub/main
+execute in custom:hub positioned 0 69 0 run function echoes:tps/hub/main

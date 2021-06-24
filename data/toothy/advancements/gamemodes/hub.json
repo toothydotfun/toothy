@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "toothy:general/adventure"
+    "function": "echoes:general/adventure"
   }
 }

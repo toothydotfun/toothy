@@ -1,6 +1,6 @@
-function toothy:login/main
-function toothy:teams/main
-function toothy:radio/main
-function toothy:tps/main
-function toothy:automation/main
-function toothy:skyblock/main
+function echoes:login/main
+function echoes:teams/main
+function echoes:radio/main
+function echoes:tps/main
+function echoes:automation/main
+function echoes:skyblock/main

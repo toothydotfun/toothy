@@ -1,4 +1,4 @@
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Vote for Toothy here:","color":"aqua"}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Vote for echoes here:","color":"aqua"}]
 tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftservers.org/server/613459","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://minecraftservers.org/server/613459"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
 tellraw @s ""

@@ -6,6 +6,6 @@ tag SWS8964 add admin
 tag qazt19 add admin
 tag DUKE_G00KEM add admin
 
-execute in minecraft:overworld positioned 0 63 0 run player toothy spawn
-gamemode survival toothy
-function toothy:radio/clear
+execute in minecraft:overworld positioned 0 63 0 run player echoes spawn
+gamemode survival echoes
+function echoes:radio/clear

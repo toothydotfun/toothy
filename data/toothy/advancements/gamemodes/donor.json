@@ -21,6 +21,6 @@
     }
   },
   "rewards": {
-    "function": "toothy:general/survival"
+    "function": "echoes:general/survival"
   }
 }

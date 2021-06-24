@@ -5,4 +5,4 @@ tellraw @a[tag=tutorial.rules] ["",{"text":"[] ","bold":true,"color":"white"},{"
 tellraw @a[tag=tutorial.rules] ""
 tag @a[tag=tutorial.rules] add tutorial.tpa
 tag @a[tag=tutorial.rules] remove tutorial.rules
-schedule function toothy:login/welcome/tutorial/tpa 15s
+schedule function echoes:login/welcome/tutorial/tpa 15s

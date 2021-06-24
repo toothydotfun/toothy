@@ -10,5 +10,5 @@ tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Player kills:
 
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Total kills: ","color":"aqua"},{"score":{"name":"@s","objective":"TotalKills"},"color":"aqua"}]
 
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"This is just a limited selection of the statistics we track on Toothy. Type !fullstats for a complete list.","color":"aqua"}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"This is just a limited selection of the statistics we track on echoes. Type !fullstats for a complete list.","color":"aqua"}]
 

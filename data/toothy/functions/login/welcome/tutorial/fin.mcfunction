@@ -4,5 +4,5 @@ tellraw @a[tag=tutorial.fin] ["",{"text":"[] ","bold":true,"color":"white"},{"te
 tellraw @a[tag=tutorial.fin] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Click here to view the tutorial again.","underlined":true,"color":"#4ABFBF","clickEvent":{"action":"run_command","value":"!tutorial"}}]
 tellraw @a[tag=tutorial.fin] ""
 tag @a[tag=tutorial.fin] remove tutorial.fin
-schedule function toothy:login/welcome/tutorial/fin 15s
+schedule function echoes:login/welcome/tutorial/fin 15s
 scoreboard players add TUTORIAL playerCount 1

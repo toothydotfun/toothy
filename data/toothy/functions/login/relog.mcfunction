@@ -1,6 +1,6 @@
 tellraw @s ["",{"text":"=================================","color":"dark_aqua","strikethrough":true}]
 tellraw @s ""
-tellraw @s ["",{"text":"Welcome back to Toothy. Join our ","color":"aqua"},{"text":"Discord","color":"dark_aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://toothy.fun/discord"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"https://toothy.fun/discord","color":"aqua"}]}}},{"text":" if you haven't already. ","color":"aqua","underlined":false}]
+tellraw @s ["",{"text":"Welcome back to echoes. Join our ","color":"aqua"},{"text":"Discord","color":"dark_aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://echoes.fun/discord"},"hoverEvent":{"action":"show_text","value":{"text":"","extra":[{"text":"https://echoes.fun/discord","color":"aqua"}]}}},{"text":" if you haven't already. ","color":"aqua","underlined":false}]
 tellraw @s ["",{"text":"Click here","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!vote"},"hoverEvent":{"action":"show_text","contents":{"text":"click me to vote!","italic":true,"color":"aqua"}}},{"text":" to vote for the server, if you feel so inclined.","color":"aqua"}]
 tellraw @s ""
 tellraw @s ["",{"text":"=================================","color":"dark_aqua","strikethrough":true}]

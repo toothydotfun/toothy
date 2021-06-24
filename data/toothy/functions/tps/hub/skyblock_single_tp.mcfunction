@@ -1,1 +1,1 @@
-function toothy:tps/skyblock/basic_island
+function echoes:tps/skyblock/basic_island

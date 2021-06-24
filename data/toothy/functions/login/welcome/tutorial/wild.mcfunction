@@ -5,4 +5,4 @@ tellraw @a[tag=tutorial.wild] ["",{"text":"[] ","bold":true,"color":"white"},{"t
 tellraw @a[tag=tutorial.wild] ""
 tag @a[tag=tutorial.wild] add tutorial.radio
 tag @a[tag=tutorial.wild] remove tutorial.wild
-schedule function toothy:login/welcome/tutorial/radio 15s
+schedule function echoes:login/welcome/tutorial/radio 15s
