@@ -26,16 +26,10 @@ tag @s add newbie
 #tag @a[team=] add echoesbday
 #tag @a[team=] add uhc
 execute as @s[team=] run function tpa:tpwild
+function echoes:login/welcome/kit
 
 #give @a[team=] minecraft:stick{display:{Name:'{"text":"Sparkler"}'}} 1
 
-execute if entity @a[team=] run give @s filled_map{display:{Name:'{"text":"Manny the Welcome Map","color":"gold","italic":true}',Lore:['{"text":"Welcome to echoes!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:fire_aspect",lvl:1s}],map:100000} 1
-execute if entity @a[team=] run give @s birch_sapling{display:{Name:'{"text":"Sasha the Welcome Sapling","color":"gold","italic":true}',Lore:['{"text":"Welcome to echoes!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:smite",lvl:3s}]} 1
-execute if entity @a[team=] run give @s orange_bed{display:{Name:'{"text":"Berry the Welcome Bed","color":"gold","italic":true}',Lore:['{"text":"Welcome to echoes!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:smite",lvl:3s}]} 1
-execute if entity @a[team=] run give @s minecraft:wooden_pickaxe{display:{Name:'{"text":"Perry the Welcome Pick","color":"gold"}',Lore:['{"text":"Welcome to echoes!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:knockback",lvl:6s}]} 1
-execute if entity @a[team=] run give @s minecraft:torch{display:{Name:'{"text":"Tyrone the Welcome Torch","color":"gold"}',Lore:['{"text":"Welcome to echoes!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:sharpness",lvl:1s}]} 3
-execute if entity @a[team=] run give @s minecraft:honey_bottle{display:{Name:'{"text":"Henry the Welcome Honey","color":"gold"}',Lore:['{"text":"Welcome to echoes!","color":"dark_purple","italic":true}']},Enchantments:[{id:"minecraft:fire_aspect",lvl:3s}]} 3
-execute if entity @a[team=] run give @s minecraft:writable_book{display:{Name:'{"text":"Journal","color":"green"}',Lore:['{"text":"Leather-bound and tattered.","color":"light_purple","italic":true}']},pages:["Use this book to chronicle your journey out of spawn, or anything else you'd like to write about. Leave it behind for other players to read, or take it with you for nostalgia!"]} 1
 
 #tag @s add spawndim
 #execute if entity @s[team=] as @s[team=] in custom:spawn run tp @s 0 1000 0
