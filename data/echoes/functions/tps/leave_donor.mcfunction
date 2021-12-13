@@ -1,2 +1,2 @@
-execute in custom:donor run tp @s ~ 4000 ~
+execute in custom:the_void run tp @s ~ 400 ~
 advancement revoke @s only echoes:dimensions/leave_donor
