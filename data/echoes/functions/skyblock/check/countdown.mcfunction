@@ -1,2 +1,2 @@
-function echoes:skyblock/teleports/basic_island
+function echoes:skyblock/basic_island
 say NIGGER
