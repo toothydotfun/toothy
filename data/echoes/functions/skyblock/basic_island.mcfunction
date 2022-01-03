@@ -4,7 +4,7 @@ execute in custom:the_void at @s anchored eyes run tp @s ~ 75 ~
 execute in custom:the_void at @s anchored feet run setblock ~ ~-10 ~ minecraft:structure_block{name:"island_single",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
 execute in custom:the_void at @s anchored feet run setblock ~ ~-11 ~ minecraft:redstone_block
 execute in custom:the_void at @s anchored feet run setblock ~ ~-11 ~ minecraft:air
-execute in custom:the_void at @s anchored feet run tp @s ~2 69 ~20
+execute in custom:the_void at @s anchored feet run tp @s ~2 69 ~4
 execute in custom:the_void at @s anchored feet run spawnpoint
 execute in custom:the_void at @s run particle explosion ~ ~1 ~ 0 0 0 1 0 force @a[distance=..50]
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"Welcome to the skyblock dimension. Your spawnpoint has been set on your island.","color":"aqua","bold":false}]
