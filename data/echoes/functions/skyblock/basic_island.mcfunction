@@ -7,6 +7,6 @@ execute in custom:the_void at @s anchored feet run setblock ~ ~-11 ~ minecraft:a
 execute in custom:the_void at @s anchored feet run tp @s ~2 69 ~4
 execute in custom:the_void at @s anchored feet run spawnpoint
 execute in custom:the_void at @s run particle explosion ~ ~1 ~ 0 0 0 1 0 force @a[distance=..50]
-tellraw @s ["",{"text":"[] ","bold":true},{"text":"Welcome to the skyblock dimension. Your spawnpoint has been set on your island.","color":"aqua","bold":false}]
-tellraw @s ["",{"text":"[] ","bold":true},{"text":"Every item in the game can be bought from the villagers some distance from your island.","color":"aqua","bold":false}]
-tellraw @s ["",{"text":"[] ","bold":true},{"text":"To set a home here, type !sethome. You can have up to 5 homes; all must have unique names.","color":"aqua","bold":false}]
+#tellraw @s ["",{"text":"[] ","bold":true},{"text":"Welcome to the skyblock dimension. Your spawnpoint has been set on your island.","color":"aqua","bold":false}]
+#tellraw @s ["",{"text":"[] ","bold":true},{"text":"Every item in the game can be bought from the villagers some distance from your island.","color":"aqua","bold":false}]
+#tellraw @s ["",{"text":"[] ","bold":true},{"text":"To set a home here, type !sethome. You can have up to 5 homes; all must have unique names.","color":"aqua","bold":false}]
