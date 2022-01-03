@@ -1,4 +1,4 @@
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You can't go to space yet. To make a space ship, you must have NOTHING but the following items in your inventory:","color":"dark_aqua"}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You can't go to space yet. To make a space ship, you must have AT LEAST the following items in your inventory:","color":"dark_aqua"}]
 tellraw @s ""
 tellraw @s ["",{"text":"- ","bold":true,"color":"white"},{"text":"40 smooth quartz blocks","color":"dark_aqua"}]
 tellraw @s ["",{"text":"- ","bold":true,"color":"white"},{"text":"12 smooth quartz stairs","color":"dark_aqua"}]
@@ -11,4 +11,4 @@ tellraw @s ["",{"text":"- ","bold":true,"color":"white"},{"text":"1 respawn anch
 tellraw @s ["",{"text":"- ","bold":true,"color":"white"},{"text":"1 iron bars","color":"dark_aqua"}]
 tellraw @s ["",{"text":"- ","bold":true,"color":"white"},{"text":"1 lightning rod","color":"dark_aqua"}]
 tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"When you have these items, try running the !spaceship command again.","color":"dark_aqua"}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"When you have these items, try running the !spaceship command again. Keep in mind, only limited survival materials are provided when you generate a new space ship.","color":"dark_aqua"}]
