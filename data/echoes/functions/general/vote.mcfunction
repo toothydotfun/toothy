@@ -1,2 +1,0 @@
-worldborder add 32 32
-tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"The world border has been expanded by an additional chunk (16 blocks in all directions). Thanks for voting!","color":"aqua"}]
