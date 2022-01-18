@@ -21,6 +21,8 @@ execute as @a[tag=tunnel.ne.s] at @s run function echoes:automation/roads/tunnel
 execute as @a[tag=tunnel.ne.e] at @s run function echoes:automation/roads/tunnel_nether_east
 execute as @a[tag=tunnel.ne.w] at @s run function echoes:automation/roads/tunnel_nether_west
 
+function echoes:automation/calltoprayer/main
+
 
 #execute if entity @p[name=_saltshaker,tag=destroy] run function echoes:automation/destroy
 #execute if entity @p[tag=removetrees] as @p[tag=removetrees] run function echoes:automation/remove_trees
