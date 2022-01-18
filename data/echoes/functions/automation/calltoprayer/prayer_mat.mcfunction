@@ -1,0 +1,3 @@
+give @s[team=muslim] red_carpet{display:{Name:'{"text":"Prayer Mat","color":"gold","bold":true,"italic":true}',Lore:['{"text":"For praising Allah.","color":"dark_purple","italic":true}']},Enchantments:[{}]} 2
+tellraw @s[team=muslim] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You've received a prayer mat. Place this at dawn or dusk when you hear the call to prayer, and worship Allah.","color":"dark_aqua"}]
+tellraw @s[team=!muslim] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"You're not on the Muslim team, and so you can't receive a prayer mat. Type !muslim before you execute this command again.","color":"dark_aqua"}]
