@@ -21,6 +21,8 @@ execute as @a[tag=tunnel.ne.s] at @s run function echoes:automation/roads/tunnel
 execute as @a[tag=tunnel.ne.e] at @s run function echoes:automation/roads/tunnel_nether_east
 execute as @a[tag=tunnel.ne.w] at @s run function echoes:automation/roads/tunnel_nether_west
 
+function echoes:automaton/generate_terrain/main
+
 function echoes:automation/calltoprayer/main
 
 
