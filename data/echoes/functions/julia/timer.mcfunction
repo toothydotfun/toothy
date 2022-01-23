@@ -56,6 +56,7 @@ execute if score @s julia matches 294 at @s run playsound minecraft:entity.ghast
 execute if score @s julia matches 292 at @s run playsound minecraft:entity.goat.screaming.hurt master @s ~ ~ ~ 10 .75
 execute if score @s julia matches 295 at @s run playsound minecraft:entity.zombie_horse.death master @s ~ ~ ~ 10 .75
 execute if score @s julia matches 296 at @s run playsound minecraft:entity.goat.screaming.death master @s ~ ~ ~ 10 .25
+execute if score @s julia matches 296 at @s run playsound minecraft:entity.witch.celebrate master @s ~ ~ ~ 10 .25
 execute if score @s julia matches 301.. at @s run function echoes:julia/death
 
 # /playsound minecraft:ambient.basalt_deltas.additions master @s ~ ~ ~ 10 .7 .2
