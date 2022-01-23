@@ -7,4 +7,3 @@ function echoes:julia/ambiance_timer
 
 execute as @a[x=0,gamemode=survival,nbt={dimension:"minecraft:overworld"}] run function echoes:julia/predicates
 execute as @a[x=0,gamemode=survival,tag=julia.now,nbt={dimension:"minecraft:overworld"}] at @s run function echoes:julia/timer
-say fuck niggers
