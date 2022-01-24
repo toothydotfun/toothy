@@ -43,6 +43,10 @@ scoreboard objectives add darkness_timer dummy
 scoreboard objectives add st_timer dummy
 scoreboard objectives add hv_timer dummy
 scoreboard players add CONTROL playerCount 1
+scoreboard objectives add rainbow_timer dummy
+scoreboard objectives add julia dummy
+scoreboard objectives add road_timer dummy
+scoreboard objectives add spaceship_timer dummy
 team add Player
 team add black
 team add dark_green

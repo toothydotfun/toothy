@@ -37,7 +37,7 @@ execute if score @s julia matches 260 at @s run playsound minecraft:ambient.basa
 #execute if score @s julia matches 260 at @s run playsound minecraft:ambient.basalt_deltas.additions master @s ^-4 ^ ^ 15 .7 .2
 execute if score @s julia matches 270 at @s run playsound minecraft:ambient.basalt_deltas.additions master @s ~ ~ ~ 15 .25
 execute if score @s julia matches 280 at @s run playsound minecraft:ambient.basalt_deltas.additions master @s ~ ~ ~ 15 .25
-#execute if score @s julia matches 280 at @s run playsound minecraft:ambient.basalt_deltas.additions master @s ^-3 ^ ^ 15 .7 .2
+#execute if score @s julia matches 280 at @s run playsound minecraft:entity.witch.celebrate @s ^-3 ^ ^ 15 .7 .2
 execute if score @s julia matches 290 at @s run playsound minecraft:ambient.basalt_deltas.additions master @s ~ ~ ~ 15 .25
 execute if score @s julia matches 291 at @s run playsound minecraft:ambient.basalt_deltas.additions master @s ~ ~ ~ 15 .25
 execute if score @s julia matches 292 at @s run playsound minecraft:ambient.basalt_deltas.additions master @s ~ ~ ~ 15 .25
