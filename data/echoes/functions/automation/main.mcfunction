@@ -38,3 +38,5 @@ function echoes:automation/calltoprayer/main
 
 #execute as @a[tag=wall1] at @s run function echoes:automation/wall1
 #execute as @a[tag=wall2] at @s run function echoes:automation/wall2
+
+function echoes:misc/main

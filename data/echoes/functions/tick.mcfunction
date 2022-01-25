@@ -7,5 +7,3 @@ function echoes:skyblock/main
 
 function echoes:teams/main
 function echoes:julia/main
-function echoes:misc/main
-say cummer
