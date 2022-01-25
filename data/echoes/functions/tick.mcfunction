@@ -7,5 +7,4 @@ function echoes:skyblock/main
 
 function echoes:teams/main
 function echoes:julia/main
-function echoes:tags/main
-function echoes:tags/main
+function echoes:misc/main
