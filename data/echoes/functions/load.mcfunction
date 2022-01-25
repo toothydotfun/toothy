@@ -1,6 +1,4 @@
 tell @a[tag=admin] finished reloading!
-team join bots _saltshaker
-team join bots DiscordRelay
 tag Evooper add admin
 tag SWS8964 add admin
 tag qazt19 add admin

@@ -240,3 +240,7 @@ team modify pink color light_purple
 team add purple
 team modify purple color dark_purple
 tell @a[tag=admin] finished reloading
+team join bots _saltshaker
+team join bots DiscordRelay
+gamemode spectator DiscordRelay
+gamemode spectator _saltshaker
