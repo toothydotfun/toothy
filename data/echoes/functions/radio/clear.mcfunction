@@ -15,6 +15,16 @@ schedule clear echoes:radio/playlist/herecomesyourman
 schedule clear echoes:radio/playlist/everybreathyoutake
 schedule clear echoes:radio/playlist/comfortablynumb
 schedule clear echoes:radio/playlist/aqualung
-schedule clear echoes:radio/playlist/thismustbetheplace
+schedule clear echoes:radio/playlist/thismustbe
 schedule clear echoes:radio/playlist/bigiron
+schedule clear echoes:radio/playlist/comesailaway
+schedule clear echoes:radio/playlist/cumon
+schedule clear echoes:radio/playlist/buttercup
+schedule clear echoes:radio/playlist/whatilike
+schedule clear echoes:radio/playlist/russia
+
+
+
+
+
 function echoes:radio/playlist/africa
