@@ -9,7 +9,7 @@ tag @a remove tpacooldown
 tag @a remove wildcooldown
 #tellraw @s ["",{"text":"Current Topic:","color":"dark_aqua"}]
 #execute if entity @p[scores={relog=1..}] run tellraw _saltshaker ["",{"text":"TOPIC12: "},{"selector":"@a[scores={relog=1..1000}]"}]
-execute if entity @s[name=_saltshaker] run carpet customMOTD _
+#execute if entity @s[name=_saltshaker] run carpet customMOTD _
 execute as @s unless score @s voted matches 1.. run scoreboard players set @s voted 0
 #execute as @s run tag @s add uhc
 scoreboard players set @s vote_timer 0
