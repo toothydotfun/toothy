@@ -26,7 +26,7 @@ tag @a remove wildcooldown
 tag @s add newbie
 #tag @a[team=] add echoesbday
 #tag @a[team=] add uhc
-execute as @s[team=] run function tpa:tpwild
+#execute as @s[team=] run function tpa:tpwild
 function echoes:login/welcome/kit
 
 #give @a[team=] minecraft:stick{display:{Name:'{"text":"Sparkler"}'}} 1

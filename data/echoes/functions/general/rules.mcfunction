@@ -6,8 +6,8 @@ tellraw @s ["",{"text":"2. Don't doxx anyone or break the law (if it feels like 
 tellraw @s ""
 #tellraw @s ["",{"text":"3. Don't post NSFW links in chat.","color":"aqua"}]
 tellraw @s ""
-tellraw @s ["",{"text":"3. No hacked clients. Optifine is OK. Hacked clients allowing flight (Meteor, Future, Inertia, Wurst, Aristois, etc) are banned.","color":"aqua"}]
-tellraw @s ""
+#tellraw @s ["",{"text":"3. No hacked clients. Optifine is OK. Hacked clients allowing flight (Meteor, Future, Inertia, Wurst, Aristois, etc) are banned.","color":"aqua"}]
+#tellraw @s ""
 #tellraw @s ["",{"text":"5. Don't be under 15 years old. This server is 15+.","color":"aqua"}]
-tellraw @s ""
+#tellraw @s ""
 tellraw @s ["",{"text":"[]","bold":true},{"text":" Anything not specified above is fair game. Keep in mind that griefing is allowed. Be careful who you trust!","color":"aqua","bold":false}]
