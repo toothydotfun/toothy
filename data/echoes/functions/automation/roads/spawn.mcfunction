@@ -17,7 +17,7 @@ gamemode spectator south
 execute in minecraft:the_nether positioned -17 120 17 run player southwest spawn
 gamemode spectator southwest
 
-execute in minecraft:the_nether positioned 17 120 0 run player west spawn
+execute in minecraft:the_nether positioned -17 120 0 run player west spawn
 gamemode spectator west
 
 execute in minecraft:the_nether positioned -17 120 -17 run player northwest spawn
@@ -43,7 +43,7 @@ gamemode spectator OWsouth
 execute in minecraft:overworld positioned -17 63 17 run player OWsouthwest spawn
 gamemode spectator OWsouthwest
 
-execute in minecraft:overworld positioned 17 63 0 run player OWwest spawn
+execute in minecraft:overworld positioned -17 63 0 run player OWwest spawn
 gamemode spectator OWwest
 
 execute in minecraft:overworld positioned -17 63 -17 run player OWnorthwest spawn
