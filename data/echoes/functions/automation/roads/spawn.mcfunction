@@ -25,28 +25,28 @@ gamemode spectator northwest
 
 ##OVERWORLD
 
-execute in minecraft:overworld positioned 0 63 -17 run player OWnorth spawn
-gamemode spectator OWnorth
+#execute in minecraft:overworld positioned 0 63 -17 run player OWnorth spawn
+#gamemode spectator OWnorth
 
-execute in minecraft:overworld positioned 17 63 -17 run player OWnortheast spawn
-gamemode spectator OWnortheast
+#execute in minecraft:overworld positioned 17 63 -17 run player OWnortheast spawn
+#gamemode spectator OWnortheast
 
-execute in minecraft:overworld positioned 17 63 0 run player OWeast spawn
-gamemode spectator OWeast
+#execute in minecraft:overworld positioned 17 63 0 run player OWeast spawn
+#gamemode spectator OWeast
 
-execute in minecraft:overworld positioned 17 63 17 run player OWsoutheast spawn
-gamemode spectator OWsoutheast
+#execute in minecraft:overworld positioned 17 63 17 run player OWsoutheast spawn
+#gamemode spectator OWsoutheast
 
-execute in minecraft:overworld positioned 0 63 17 run player OWsouth spawn
-gamemode spectator OWsouth
+#execute in minecraft:overworld positioned 0 63 17 run player OWsouth spawn
+#gamemode spectator OWsouth
 
-execute in minecraft:overworld positioned -17 63 17 run player OWsouthwest spawn
-gamemode spectator OWsouthwest
+#execute in minecraft:overworld positioned -17 63 17 run player OWsouthwest spawn
+#gamemode spectator OWsouthwest
 
-execute in minecraft:overworld positioned -17 63 0 run player OWwest spawn
-gamemode spectator OWwest
+#execute in minecraft:overworld positioned -17 63 0 run player OWwest spawn
+#gamemode spectator OWwest
 
-execute in minecraft:overworld positioned -17 63 -17 run player OWnorthwest spawn
-gamemode spectator OWnorthwest
+#execute in minecraft:overworld positioned -17 63 -17 run player OWnorthwest spawn
+#gamemode spectator OWnorthwest
 
 tell @a[tag=admin] road bots spawned...
