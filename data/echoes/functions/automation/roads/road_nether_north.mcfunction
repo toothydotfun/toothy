@@ -9,6 +9,6 @@ execute if score @s road_timer matches 6 at @s run fill ~-1 119 ~-1 ~1 119 ~1 ne
 execute if score @s road_timer matches 7 at @s run fill ~1 118 ~-1 ~-1 117 ~1 obsidian replace
 execute if score @s road_timer matches 8 at @s run fill ~ 128 ~1 ~ 128 ~-1 redstone_block replace
 execute if score @s road_timer matches 9 at @s run fill ~ 129 ~1 ~ 129 ~-1 powered_rail[shape=north_south,powered=true] replace
+execute if score @s road_timer matches 9 at @s run setblock ~ 134 ~ glowstone
 execute if score @s road_timer matches 10 at @s run fill ~ 130 ~1 ~ 130 ~-1 air replace
-execute if score @s road_timer matches 10 at @s run fill ~1 130 ~ ~-1 130 ~ air replace
 execute if score @s road_timer matches 10.. run scoreboard players set @s road_timer 0
