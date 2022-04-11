@@ -4,7 +4,7 @@ execute if score @s road_timer matches 2 at @s run fill ^ ^ ^1 ^ ^3 ^-1 air
 execute if score @s road_timer matches 2 at @s run setblock ~ ~4 ~ glowstone
 execute if score @s road_timer matches 3 at @s run fill ~1 ~-2 ~1 ~-1 ~-2 ~-1 minecraft:obsidian
 execute if score @s road_timer matches 3 at @s run fill ~1 128 ~1 ~-1 128 ~-1 minecraft:obsidian
-execute if score @s road_timer matches 4 at @s run fill ^ ^9 ^1 ^ ^11 ^-1 air
+execute if score @s road_timer matches 4 at @s run fill ^ ^9 ^1 ^ ^13 ^-1 air
 execute if score @s road_timer matches 4 at @s run fill ~-2 ~-1 ~ ~-2 ~-1 ~ minecraft:cyan_concrete
 execute if score @s road_timer matches 5 at @s run fill ~-1 ~-1 ~ ~-1 ~-1 ~ minecraft:light_blue_concrete
 execute if score @s road_timer matches 6 at @s run fill ~ ~-1 ~ ~ ~-1 ~ minecraft:blue_concrete
