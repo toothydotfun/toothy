@@ -5,8 +5,9 @@ execute if score @s road_timer matches 2 at @s run setblock ~ ~4 ~ glowstone
 execute if score @s road_timer matches 3 at @s run fill ~2 ~4 ~-1 ~-2 ~ ~1 netherrack replace gravel
 execute if score @s road_timer matches 4 at @s run fill ~2 ~4 ~-1 ~-2 ~ ~1 netherrack replace soul_sand
 execute if score @s road_timer matches 5 at @s run fill ~1 ~3 ~-1 ~-1 ~ ~1 air replace
-execute if score @s road_timer matches 6 at @s run fill ~-1 119 ~-1 ~1 119 ~1 dark_prismarine replace
+execute if score @s road_timer matches 6 at @s run fill ~-1 119 ~-1 ~1 119 ~1 nether_bricks replace
 execute if score @s road_timer matches 7 at @s run fill ~1 118 ~-1 ~-1 117 ~1 obsidian replace
 execute if score @s road_timer matches 8 at @s run fill ~1 128 ~ ~-1 128 ~ redstone_block replace air
 execute if score @s road_timer matches 9 at @s run fill ~1 129 ~ ~-1 129 ~ powered_rail[shape=east_west,powered=true] replace air
+execute if score @s road_timer matches 10 at @s run fill ~1 130 ~ ~-1 130 ~ air replace
 execute if score @s road_timer matches 10.. run scoreboard players set @s road_timer 0
