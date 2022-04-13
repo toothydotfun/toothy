@@ -1,0 +1,25 @@
+tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Working...","color":"dark_aqua"}]
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/africa
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/comesailaway
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/cumonfeelthenoize
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/buttercup
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/whatilikeaboutyou
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/russia
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/backinblack
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/closetome
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/dontfearthereaper
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/erika
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/feelgoodinc
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/herecomesthesun
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/smokeonthewater
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/takeonme
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/touchofgrey
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/karmapolice
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/knivesout
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/herecomesyourman
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/everybreathyoutake
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/comfortablynumb
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/aqualung
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/thismustbetheplace
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/bigiron
+execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/kazakhstan
