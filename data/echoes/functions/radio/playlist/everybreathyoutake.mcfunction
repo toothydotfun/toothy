@@ -1,5 +1,7 @@
-execute as @a[tag=radio.play] run stopsound @s[tag=radio.play] master
-execute as @a[tag=radio.play] at @s[tag=radio.play] run playsound minecraft:everybreathyoutake master @s[tag=radio.play]
+execute as @a[tag=radio.play] run stopsound @s[tag=radio.play] music
+execute as @a[tag=radio.play] at @s[tag=radio.play] run playsound minecraft:everybreathyoutake music @s[tag=radio.play]
 execute as @a[tag=radio.play] run title @s[tag=radio.play] times 30 60 30
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"THE POLICE - EVERY BREATH YOU TAKE","bold":true,"italic":true,"color":"blue"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/comfortablynumb 238s
+scoreboard players set #currentSong playerCount 19
+tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Now Playing on Echoes Radio: The Police - Every Breath You Take","color":"dark_aqua"}]

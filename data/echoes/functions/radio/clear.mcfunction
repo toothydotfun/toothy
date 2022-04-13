@@ -23,6 +23,7 @@ schedule clear echoes:radio/playlist/buttercup
 schedule clear echoes:radio/playlist/whatilike
 schedule clear echoes:radio/playlist/russia
 
+scoreboard players set #currentSong playerCount 0
 
 
 
