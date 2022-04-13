@@ -16,6 +16,7 @@ execute if entity @a[team=] run execute as @a at @s run playsound minecraft:bloc
 execute if entity @a[team=] run execute as @a at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ .25 1
 execute if entity @a[team=] run execute as @a at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ .25 1.5
 execute if entity @a[team=] run execute as @a at @s run playsound minecraft:block.note_block.chime master @s ~ ~ ~ .25 2
+execute if entity @a[team=] run execute as @a at @s run playsound minecraft:fart master @s ~ ~ ~ 10
 
 scoreboard players set @s vote_timer 0
 scoreboard players add @s voted 0

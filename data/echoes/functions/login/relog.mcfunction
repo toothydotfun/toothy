@@ -13,5 +13,7 @@ tag @a remove wildcooldown
 execute as @s unless score @s voted matches 1.. run scoreboard players set @s voted 0
 #execute as @s run tag @s add uhc
 scoreboard players set @s vote_timer 0
-execute if entity @p[scores={relog=1..}] as @a run playsound minecraft:block.note_block.xylophone master @s ~ ~ ~ .25 1.5
+execute if entity @p[scores={relog=1..}] as @a[tag=!radio.play] run playsound minecraft:fart master @s ~ ~ ~ 10
+execute if entity @p[scores={relog=1..}] as @a[tag=radio.play] run playsound minecraft:block.note_block.xylophone master @s ~ ~ ~ .25 1.5
+
 scoreboard players set @s relog 0
