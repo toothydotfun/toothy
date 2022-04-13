@@ -4,4 +4,4 @@ execute as @a[tag=radio.play] at @s[tag=radio.play] run playsound minecraft:cumo
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"QUIET RIOT - CUM ON FEEL THE NOIZE","bold":true,"italic":true,"color":"green"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/buttercup 287s
 scoreboard players set #currentSong playerCount 3
-tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Now Playing on Echoes Radio: Quiet Riot - Cum On Feel The Noize","color":"dark_aqua"}]
+tellraw @a ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Quiet Riot - Cum On Feel Tha Noize"]

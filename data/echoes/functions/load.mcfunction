@@ -6,7 +6,9 @@ tag DUKE_G00KEM add admin
 
 execute in custom:hub positioned 0 64 0 run player echoes spawn
 gamemode survival echoes
-team join neet echoes
-function echoes:automation/roads/spawn
+execute in custom:hub positioned 0 64 0 run player EchoesRadio spawn
+gamemode spectator EchoesRadio
+team join NEET echoes
+#function echoes:automation/roads/spawn
 function echoes:radio/clear
 function echoes:general/setup

@@ -4,4 +4,4 @@ execute as @a[tag=radio.play] at @s[tag=radio.play] run playsound minecraft:back
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"AC/DC - BACK IN BLACK","bold":true,"italic":true,"color":"dark_red"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/closetome 255s
 scoreboard players set #currentSong playerCount 7
-tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Now Playing on Echoes Radio: AC/DC - Back in Black","color":"dark_aqua"}]
+tellraw @a ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: AC/DC - Back in Black"]

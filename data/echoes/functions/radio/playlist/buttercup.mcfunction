@@ -4,4 +4,4 @@ execute as @a[tag=radio.play] at @s[tag=radio.play] run playsound minecraft:butt
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"JACK STAUBER - BUTTERCUP","bold":true,"italic":true,"color":"light_purple"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/whatilikeaboutyou 203s
 scoreboard players set #currentSong playerCount 4
-tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Now Playing on Echoes Radio: Jack Stauber - Buttercup","color":"dark_aqua"}]
+tellraw @a ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Jack Stauber - Buttercup"]

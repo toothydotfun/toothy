@@ -4,4 +4,4 @@ execute as @a[tag=radio.play] run title @s[tag=radio.play] times 30 60 30
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"GRATEFUL DEAD - TOUCH OF GREY","bold":true,"italic":true,"color":"gray"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/karmapolice 355s
 scoreboard players set #currentSong playerCount 15
-tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Now Playing on Echoes Radio: Grateful Dead - Touch of Grey","color":"dark_aqua"}]
+tellraw @a ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Grateful Dead - Touch of Grey"]
