@@ -1,4 +1,4 @@
-tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Working...","color":"dark_aqua"}]
+tellraw @a ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Working on it...","color":"dark_aqua"}]
 execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/africa
 execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/comesailaway
 execute if score #currentSong playerCount matches 1 run function echoes:radio/skip/cumonfeelthenoize
