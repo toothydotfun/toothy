@@ -8,3 +8,4 @@ tellraw @s[nbt={Dimension:"custom:art"}] ["",{"text":"[] ","color":"white"},{"te
 
 advancement revoke @s only echoes:gamemodes/hub
 advancement revoke @s only echoes:gamemodes/art
+advancement revoke @s only echoes:gamemodes/dungeons
