@@ -12,6 +12,7 @@ execute if score #currentSong playerCount matches 9 run function echoes:radio/sk
 execute if score #currentSong playerCount matches 10 run function echoes:radio/skip/erika
 execute if score #currentSong playerCount matches 11 run function echoes:radio/skip/feelgoodinc
 execute if score #currentSong playerCount matches 12 run function echoes:radio/skip/herecomesthesun
+##Narration 1
 execute if score #currentSong playerCount matches 13 run function echoes:radio/skip/smokeonthewater
 execute if score #currentSong playerCount matches 14 run function echoes:radio/skip/takeonme
 execute if score #currentSong playerCount matches 15 run function echoes:radio/skip/touchofgrey
@@ -24,3 +25,12 @@ execute if score #currentSong playerCount matches 21 run function echoes:radio/s
 execute if score #currentSong playerCount matches 22 run function echoes:radio/skip/thismustbetheplace
 execute if score #currentSong playerCount matches 23 run function echoes:radio/skip/bigiron
 execute if score #currentSong playerCount matches 24 run function echoes:radio/skip/kazakhstan
+execute if score #currentSong playerCount matches 25 run function echoes:radio/skip/intheairtonight
+execute if score #currentSong playerCount matches 26 run function echoes:radio/skip/ilovereshiram
+execute if score #currentSong playerCount matches 27 run function echoes:radio/skip/iwasmadeforlovingyou
+execute if score #currentSong playerCount matches 28 run function echoes:radio/skip/somebodythatiusedtoknow
+##Narration 2
+execute if score #currentSong playerCount matches 29 run function echoes:radio/skip/starspangledbanner
+execute if score #currentSong playerCount matches 30 run function echoes:radio/skip/celebrate
+execute if score #currentSong playerCount matches 31 run function echoes:radio/skip/lastresort
+execute if score #currentSong playerCount matches 32 run function echoes:radio/skip/ourhouse
