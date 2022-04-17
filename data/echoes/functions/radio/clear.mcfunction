@@ -23,6 +23,16 @@ schedule clear echoes:radio/playlist/buttercup
 schedule clear echoes:radio/playlist/whatilike
 schedule clear echoes:radio/playlist/russia
 
+schedule clear echoes:radio/playlist/kazakhstan
+schedule clear echoes:radio/playlist/intheairtonight
+schedule clear echoes:radio/playlist/ilovereshiram
+schedule clear echoes:radio/playlist/iwasmadeforlovingyou
+schedule clear echoes:radio/playlist/somebodythatiusedtoknow
+schedule clear echoes:radio/playlist/starspangledbanner
+schedule clear echoes:radio/playlist/celebrate
+schedule clear echoes:radio/playlist/lastresort
+schedule clear echoes:radio/playlist/ourhouse
+
 scoreboard players set #currentSong playerCount 0
 
 
