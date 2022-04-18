@@ -6,4 +6,4 @@ execute as @a[tag=radio.play] run tellraw @s ["",{"text":"[]","bold":true,"color
 execute as @a[tag=radio.play] run tellraw @s ["",{"text":"[]","bold":true,"color":"white"},{"text":"PLEASE NOTE: If you log out or teleport somewhere, the music may temporarily stop until the next song in the playlist is queued.","color":"dark_aqua"}]
 schedule function echoes:radio/playlist/comesailaway 296s
 scoreboard players set #currentSong playerCount 1
-tellraw @a ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Toto - Africa"]
+tellraw @a[tag=radio.play] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Toto - Africa"]

@@ -6,3 +6,4 @@ tellraw @a[tag=tutorial.fin] ""
 tag @a[tag=tutorial.fin] remove tutorial.fin
 schedule function echoes:login/welcome/tutorial/fin 15s
 scoreboard players add TUTORIAL playerCount 1
+tag @s add radio.init
