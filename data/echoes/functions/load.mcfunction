@@ -10,7 +10,7 @@ execute in custom:hub positioned 0 64 0 run player EchoesRadio spawn
 gamemode spectator EchoesRadio
 execute in custom:art positioned 0 0 0 run player artistbot spawn
 gamemode spectator artistbot
-team join NEET echoes
+team join NEET Echoes
 #function echoes:automation/roads/spawn
 function echoes:radio/clear
 function echoes:general/setup
