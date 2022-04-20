@@ -1,16 +1,19 @@
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Vote for Echoes here:","color":"aqua"}]
 tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftservers.org/server/613459","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/6.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://echoes.fun/vote","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
 tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraft-mp.com/server-s217680","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/5.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftlist.org/server/22623","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/4.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftservers.biz/servers/149925/","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/3.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraft-server.net/details/echoes/","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/2.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
-tellraw @s ""
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraft-server-list.com/server/476575/","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/1.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
+#tellraw @s ""
+#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftservers.org/server/613459","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/6.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
+#tellraw @s ""
+#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraft-mp.com/server-s217680","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/5.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
+#tellraw @s ""
+#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftlist.org/server/22623","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/4.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
+#tellraw @s ""
+#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftservers.biz/servers/149925/","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/3.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
+#tellraw @s ""
+#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraft-server.net/details/echoes/","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/2.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
+#tellraw @s ""
+#tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraft-server-list.com/server/476575/","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/1.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
 #tellraw @s ""
 #tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"https://minecraftserverlist.pro/server/98","underlined":true,"color":"dark_aqua","clickEvent":{"action":"open_url","value":"https://echoes.fun/vote/7.html"},"hoverEvent":{"action":"show_text","value":["",{"text":"Click the URL to vote!","color":"aqua"}]}}]
 
