@@ -5,4 +5,3 @@ execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":t
 schedule function echoes:radio/playlist/herecomesthesun 223s
 scoreboard players set #currentSong playerCount 11
 tellraw @a[tag=radio.play] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Gorillaz - Feel Good Inc"]
-function echoes:npcs/elliotrodger
