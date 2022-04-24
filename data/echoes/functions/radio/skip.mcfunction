@@ -6,6 +6,7 @@ execute if score #currentSong playerCount matches 3 run function echoes:radio/sk
 execute if score #currentSong playerCount matches 4 run function echoes:radio/skip/buttercup
 execute if score #currentSong playerCount matches 5 run function echoes:radio/skip/whatilikeaboutyou
 execute if score #currentSong playerCount matches 6 run function echoes:radio/skip/russia
+##Narration 4
 execute if score #currentSong playerCount matches 7 run function echoes:radio/skip/backinblack
 execute if score #currentSong playerCount matches 8 run function echoes:radio/skip/closetome
 execute if score #currentSong playerCount matches 9 run function echoes:radio/skip/dontfearthereaper
@@ -19,12 +20,14 @@ execute if score #currentSong playerCount matches 15 run function echoes:radio/s
 execute if score #currentSong playerCount matches 16 run function echoes:radio/skip/karmapolice
 execute if score #currentSong playerCount matches 17 run function echoes:radio/skip/knivesout
 execute if score #currentSong playerCount matches 18 run function echoes:radio/skip/herecomesyourman
+##Narration 3
 execute if score #currentSong playerCount matches 19 run function echoes:radio/skip/everybreathyoutake
 execute if score #currentSong playerCount matches 20 run function echoes:radio/skip/comfortablynumb
 execute if score #currentSong playerCount matches 21 run function echoes:radio/skip/aqualung
 execute if score #currentSong playerCount matches 22 run function echoes:radio/skip/thismustbetheplace
 execute if score #currentSong playerCount matches 23 run function echoes:radio/skip/bigiron
 execute if score #currentSong playerCount matches 24 run function echoes:radio/skip/kazakhstan
+##Narration 5
 execute if score #currentSong playerCount matches 25 run function echoes:radio/skip/intheairtonight
 execute if score #currentSong playerCount matches 26 run function echoes:radio/skip/ilovereshiram
 execute if score #currentSong playerCount matches 27 run function echoes:radio/skip/iwasmadeforlovingyou
