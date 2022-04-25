@@ -2,7 +2,7 @@ scoreboard objectives add playerCount dummy
 scoreboard players add CONTROL playerCount 1
 tellraw _saltshaker ["",{"text":"CATALOGUE12: "},{"selector":"@s"}]
 
-tellraw @a[team=!] ["",{"text":"[] ","bold":true,"color":"white"},{"selector":"@s","color":"aqua","hoverEvent":{"action":"show_text","contents":{"text":"pooping right now","color":"aqua"}}},{"text":" has just joined Echoes for the first time. Say howdy! This makes ","color":"aqua","clickEvent":{"action":"run_command","value":"howdy"},"hoverEvent":{"action":"show_text","contents":{"text":"click here to say hi!","color":"aqua"}}},{"score":{"name":"CONTROL","objective":"playerCount"},"color":"aqua"},{"text":" unique logins since April 3rd of 2021!","color":"aqua"}]
+tellraw @a[team=!] ["",{"text":"[] ","bold":true,"color":"white"},{"selector":"@s","color":"aqua","hoverEvent":{"action":"show_text","contents":{"text":"pooping right now","color":"aqua"}}},{"text":" has just joined Echoes for the first time. Say howdy! This makes ","color":"aqua","clickEvent":{"action":"run_command","value":"howdy"},"hoverEvent":{"action":"show_text","contents":{"text":"click here to say hi!","color":"aqua"}}},{"score":{"name":"CONTROL","objective":"playerCount"},"color":"aqua"},{"text":" unique logins since April 24th of 2022!","color":"aqua"}]
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Welcome to Echoes. We HIGHLY encourage you to join our community Discord: ","color":"aqua"},{"text":"https://echoes.fun/discord","color":"dark_aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://echoes.fun/discord"}}]
 tellraw @s ""
 tellraw @s ["",{"text":"===================","color":"dark_aqua","strikethrough":true}]
