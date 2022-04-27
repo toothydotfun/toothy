@@ -13,5 +13,5 @@ gamemode spectator artistbot
 team join NEET Echoes
 function echoes:automation/roads/spawn
 function echoes:radio/clear
-function echoes:general/setup
+#function echoes:general/setup
 function echoes:automation/set_mobcaps
