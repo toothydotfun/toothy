@@ -7,8 +7,5 @@ execute if score #mobCap playerCount matches 2 run tell @a[tag=admin] Hostile mo
 execute if score #mobCap playerCount matches 3 run spawn mobcaps set 1024
 execute if score #mobCap playerCount matches 3 run tell @a[tag=admin] Hostile mob cap set to 1024 (setting #3)..
 
-execute if score #mobCap playerCount matches 4 run spawn mobcaps set 2048
-execute if score #mobCap playerCount matches 4 run tell @a[tag=admin] Hostile mob cap set to 2048 (setting #4)..
-
-execute if score #mobCap playerCount matches 5 run spawn mobcaps set 4096
-execute if score #mobCap playerCount matches 5 run tell @a[tag=admin] Hostile mob cap set to 4096 (setting #5)..
+execute if score #mobCap playerCount matches 4 run spawn mobcaps set 1400
+execute if score #mobCap playerCount matches 4 run tell @a[tag=admin] Hostile mob cap set to 1400 (setting #4, maximum)..
