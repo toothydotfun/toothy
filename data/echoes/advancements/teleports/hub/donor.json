@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:location",
+      "conditions": {
+        "player": {
+          "type": "minecraft:player",
+          "player": {
+            "gamemode": "adventure"
+          }
+        },
+        "location": {
+          "position": {
+            "x": -105.5,
+            "y": 157,
+            "z": -16.5
+          },
+          "dimension": "custom:hub"
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "echoes:tps/donor"
+  }
+}
