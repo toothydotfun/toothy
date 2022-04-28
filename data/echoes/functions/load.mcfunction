@@ -11,7 +11,7 @@ gamemode spectator EchoesRadio
 execute in custom:art positioned 0 0 0 run player artistbot spawn
 gamemode spectator artistbot
 team join NEET Echoes
-function echoes:automation/roads/schedule/start
+#function echoes:automation/roads/schedule/start
 function echoes:radio/clear
 #function echoes:general/setup
 function echoes:automation/set_mobcaps
