@@ -1,9 +1,9 @@
 stopsound @a master
 schedule clear echoes:radio/playlist/africa
-schedule clear echoes:radio/playlist/backinblack
+schedule clear echoes:radio/playlist/transisland
 schedule clear echoes:radio/playlist/closetome
 schedule clear echoes:radio/playlist/dontfearthereaper
-schedule clear echoes:radio/playlist/erika
+schedule clear echoes:radio/playlist/missmarlene
 schedule clear echoes:radio/playlist/feelgoodinc
 schedule clear echoes:radio/playlist/herecomesthesun
 schedule clear echoes:radio/playlist/smokeonthewater
@@ -18,10 +18,10 @@ schedule clear echoes:radio/playlist/aqualung
 schedule clear echoes:radio/playlist/thismustbe
 schedule clear echoes:radio/playlist/bigiron
 schedule clear echoes:radio/playlist/comesailaway
-schedule clear echoes:radio/playlist/cumon
+schedule clear echoes:radio/playlist/planetdrhonda
 schedule clear echoes:radio/playlist/buttercup
 schedule clear echoes:radio/playlist/whatilike
-schedule clear echoes:radio/playlist/russia
+schedule clear echoes:radio/playlist/hereatthewesternworld
 
 schedule clear echoes:radio/playlist/kazakhstan
 schedule clear echoes:radio/playlist/intheairtonight
