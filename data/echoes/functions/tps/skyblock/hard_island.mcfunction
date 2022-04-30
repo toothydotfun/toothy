@@ -15,3 +15,6 @@ tellraw @s ["",{"text":"[] ","bold":true},{"text":"If a friend wants to come to 
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"If you leave your island and want to return here, type !home skyblock","color":"red","bold":true}]
 
 execute as @s at @s run trigger sethome add 999
+
+execute in custom:skyblock at @s anchored feet run function echoes:tps/skyblock/end_portal
+execute in custom:skyblock at @s anchored feet run function echoes:tps/skyblock/nether_portal

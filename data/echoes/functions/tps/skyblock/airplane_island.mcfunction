@@ -18,3 +18,6 @@ tag @s remove basic_island
 #execute if entity @s[tag=skbleader] as @s at @s run function echoes:tps/hub/skyblock_multi_tp_3
 
 execute as @s at @s run trigger sethome add 999
+
+execute in custom:skyblock at @s anchored feet run function echoes:tps/skyblock/end_portal
+execute in custom:skyblock at @s anchored feet run function echoes:tps/skyblock/nether_portal
