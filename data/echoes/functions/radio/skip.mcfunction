@@ -11,7 +11,7 @@ execute if score #currentSong playerCount matches 7 run function echoes:radio/sk
 execute if score #currentSong playerCount matches 8 run function echoes:radio/skip/closetome
 execute if score #currentSong playerCount matches 9 run function echoes:radio/skip/dontfearthereaper
 execute if score #currentSong playerCount matches 10 run function echoes:radio/skip/missmarlene
-execute if score #currentSong playerCount matches 11 run function echoes:radio/skip/feelgoodinc
+execute if score #currentSong playerCount matches 11 run function echoes:radio/skip/yourgoldteeth
 execute if score #currentSong playerCount matches 12 run function echoes:radio/skip/herecomesthesun
 ##Narration 1
 execute if score #currentSong playerCount matches 13 run function echoes:radio/skip/smokeonthewater

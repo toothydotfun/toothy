@@ -4,7 +4,7 @@ execute in custom:skyblock at @s anchored eyes run tp @s ~ 75 ~
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ minecraft:structure_block{name:"airplane_island",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ minecraft:redstone_block
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ minecraft:air
-execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
+execute in custom:skyblock at @s anchored feet run tp @s ~5 69 ~17
 #execute in custom:skyblock at @s anchored feet run spawnpoint
 execute at @s run particle explosion ~ ~1 ~ 0 0 0 1 0 force @a[distance=..50]
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"Welcome to the Skyblock Dimension. Your spawnpoint has NOT been set on your island. You can return to the overworld by typing !spawn.","color":"dark_aqua","bold":false}]
@@ -13,5 +13,8 @@ tellraw @s ["",{"text":"[] ","bold":true},{"text":"Every item in the game can be
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"To visit server spawn (in the overworld), type !spawn.","color":"dark_aqua","bold":false}]
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"To set a home here, type !sethome. You can have up to 11 homes; all must have unique names.","color":"dark_aqua","bold":false}]
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"If a friend wants to come to you, they can type !tpa <your username>.","color":"dark_aqua","bold":false}]
+tellraw @s ["",{"text":"[] ","bold":true},{"text":"If you leave your island and want to return here, type !home skyblock","color":"red","bold":true}]
 tag @s remove basic_island
 #execute if entity @s[tag=skbleader] as @s at @s run function echoes:tps/hub/skyblock_multi_tp_3
+
+execute as @s at @s run trigger sethome add 999
