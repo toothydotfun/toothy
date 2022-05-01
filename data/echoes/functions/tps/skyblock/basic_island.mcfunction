@@ -4,6 +4,7 @@ execute in custom:skyblock at @s anchored eyes run tp @s ~ 75 ~
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ minecraft:structure_block{name:"basic_island",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ minecraft:redstone_block
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ minecraft:air
+execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ minecraft:air
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
 #execute in custom:skyblock at @s anchored feet run spawnpoint
 execute at @s run particle explosion ~ ~1 ~ 0 0 0 1 0 force @a[distance=..50]
@@ -19,5 +20,12 @@ tag @s remove basic_island
 
 execute as @s at @s run trigger sethome add 999
 
-function echoes:tps/skyblock/end_portal
-function echoes:tps/skyblock/nether_portal
+execute in custom:skyblock at @s anchored feet run setblock ~105 ~-10 ~ minecraft:structure_block{name:"end_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
+execute in custom:skyblock at @s anchored feet run setblock ~105 ~-11 ~ minecraft:redstone_block
+execute in custom:skyblock at @s anchored feet run setblock ~105 ~-11 ~ minecraft:air
+execute in custom:skyblock at @s anchored feet run setblock ~105 ~-10 ~ minecraft:air
+
+execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-10 ~ minecraft:structure_block{name:"nether_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
+execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-11 ~ minecraft:redstone_block
+execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-11 ~ minecraft:air
+execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-10 ~ minecraft:air
