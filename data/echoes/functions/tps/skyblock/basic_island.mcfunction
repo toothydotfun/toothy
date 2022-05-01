@@ -20,12 +20,7 @@ tag @s remove basic_island
 
 execute as @s at @s run trigger sethome add 999
 
-execute in custom:skyblock at @s anchored feet run setblock ~105 ~-10 ~ minecraft:structure_block{name:"end_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
-execute in custom:skyblock at @s anchored feet run setblock ~105 ~-11 ~ minecraft:redstone_block
-execute in custom:skyblock at @s anchored feet run setblock ~105 ~-11 ~ minecraft:air
-execute in custom:skyblock at @s anchored feet run setblock ~105 ~-10 ~ minecraft:air
+tag @s add portal.spawn
 
-execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-10 ~ minecraft:structure_block{name:"nether_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
-execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-11 ~ minecraft:redstone_block
-execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-11 ~ minecraft:air
-execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-10 ~ minecraft:air
+schedule function echoes:tps/skyblock/end_portal 3s
+schedule function echoes:tps/skyblock/nether_portal 5s
