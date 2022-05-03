@@ -4,7 +4,7 @@ schedule clear echoes:radio/playlist/transisland
 schedule clear echoes:radio/playlist/closetome
 schedule clear echoes:radio/playlist/dontfearthereaper
 schedule clear echoes:radio/playlist/missmarlene
-schedule clear echoes:radio/playlist/feelgoodinc
+schedule clear echoes:radio/playlist/yourgoldteeth
 schedule clear echoes:radio/playlist/herecomesthesun
 schedule clear echoes:radio/playlist/smokeonthewater
 schedule clear echoes:radio/playlist/takeonme
