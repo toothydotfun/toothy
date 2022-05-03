@@ -1,10 +1,13 @@
 execute in custom:skyblock run tp @s 0 10000 0
 execute in custom:skyblock anchored eyes run spreadplayers 0 0 500000 20000000 true @s
 execute in custom:skyblock at @s anchored eyes run tp @s ~ 75 ~
+execute in custom:skyblock at @s anchored feet run setblock ~1 ~-10 ~ minecraft:structure_block{name:"end_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
+execute in custom:skyblock at @s anchored feet run setblock ~2 ~-10 ~ minecraft:structure_block{name:"end_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ minecraft:structure_block{name:"basic_island",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
-execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ minecraft:redstone_block
-execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ minecraft:air
-execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ minecraft:air
+execute in custom:skyblock at @s anchored feet run fill ~ ~-11 ~ ~2 ~-11 ~ redstone_block
+execute in custom:skyblock at @s anchored feet run fill ~ ~-11 ~ ~2 ~-11 ~ air
+execute in custom:skyblock at @s anchored feet run fill ~ ~-10 ~ ~2 ~-10 ~ air
+
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
 #execute in custom:skyblock at @s anchored feet run spawnpoint
 execute at @s run particle explosion ~ ~1 ~ 0 0 0 1 0 force @a[distance=..50]
