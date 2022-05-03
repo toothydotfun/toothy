@@ -7,12 +7,12 @@ execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ minecraft:s
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ redstone_block
 execute in custom:skyblock at @s anchored feet run setblock ~105 ~-11 ~ redstone_block
 execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-11 ~ redstone_block
-execute in custom:skyblock at @s anchored feet run fill ~ ~-11 ~ air
-execute in custom:skyblock at @s anchored feet run fill ~105 ~-11 ~ air
-execute in custom:skyblock at @s anchored feet run fill ~-105 ~-11 ~ air
-execute in custom:skyblock at @s anchored feet run fill ~-105 ~-10 ~ air
-execute in custom:skyblock at @s anchored feet run fill ~105 ~-10 ~ air
-execute in custom:skyblock at @s anchored feet run fill ~ ~-10 ~ air
+execute in custom:skyblock at @s anchored feet run setblock ~ ~-11 ~ air
+execute in custom:skyblock at @s anchored feet run setblock ~105 ~-11 ~ air
+execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-11 ~ air
+execute in custom:skyblock at @s anchored feet run setblock ~-105 ~-10 ~ air
+execute in custom:skyblock at @s anchored feet run setblock ~105 ~-10 ~ air
+execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ air
 
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
 #execute in custom:skyblock at @s anchored feet run spawnpoint
