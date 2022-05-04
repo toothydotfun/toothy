@@ -7,7 +7,8 @@ tellraw @s ["",{"text":"=================================","color":"dark_aqua","
 #tag @s add topic
 tag @a remove tpacooldown
 tag @a remove wildcooldown
-#tellraw @s ["",{"text":"Current Topic:","color":"dark_aqua"}]
+tellraw @s ["",{"text":"Current Topic:","color":"dark_aqua"}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Click ","color":"gold"},{"text":"here","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!radio on"}},{"text":" to listen to Echoes Radio. Click ","color":"gold"},{"text":"here","underlined":true,"color":"dark_aqua","clickEvent":{"action":"run_command","value":"!radionewvegas on"}},{"text":" to listen to Radio: New Vegas. Make sure you have server resource packs enabled!","color":"gold"}]
 #execute if entity @p[scores={relog=1..}] run tellraw _saltshaker ["",{"text":"TOPIC12: "},{"selector":"@a[scores={relog=1..1000}]"}]
 #execute if entity @s[name=_saltshaker] run carpet customMOTD _
 execute as @s unless score @s voted matches 1.. run scoreboard players set @s voted 0
