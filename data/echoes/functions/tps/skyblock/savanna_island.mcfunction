@@ -20,5 +20,7 @@ tag @s remove basic_island
 
 execute as @s at @s run trigger sethome add 999
 
-execute in custom:skyblock at @s anchored feet run function echoes:tps/skyblock/end_portal
-execute in custom:skyblock at @s anchored feet run function echoes:tps/skyblock/nether_portal
+tag @s add portal.spawn
+
+schedule function echoes:tps/skyblock/end_portal 3s
+schedule function echoes:tps/skyblock/nether_portal 5s
