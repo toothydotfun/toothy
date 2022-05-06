@@ -14,21 +14,7 @@ execute in custom:skyblock at @s anchored feet run setblock ~-50 ~-10 ~ air
 execute in custom:skyblock at @s anchored feet run setblock ~50 ~-10 ~ air
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ air
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
-execute in custom:skyblock at @s anchored feet run tp @s ~200 69 ~
-execute in custom:skyblock at @s anchored feet run setblock ~ ~-1 ~ glass
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~50 ~-10 ~ minecraft:structure_block{name:"end_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~50 ~-11 ~ minecraft:redstone_block
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~50 ~-11 ~ minecraft:air
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~50 ~-10 ~ minecraft:air
-execute in custom:skyblock as @a[tag=portal.spawn] at @s run playsound entity.generic.explode master @s ~ ~ ~ 1 .25
-execute in custom:skyblock at @s anchored feet run tp @s ~-400 69 ~
-execute in custom:skyblock at @s anchored feet run setblock ~ ~-1 ~ glass
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~-50 ~-10 ~ minecraft:structure_block{name:"nether_portal",posX:"~",posY:"~",posZ:"~",rotation:"NONE",mirror:"NONE",mode:"LOAD",ignoreEntities:0b}
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~-50 ~-11 ~ minecraft:redstone_block
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~-50 ~-11 ~ minecraft:air
-execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~-50 ~-10 ~ minecraft:air
-execute in custom:skyblock as @a[tag=portal.spawn] at @s run playsound entity.generic.explode master @s ~ ~ ~ 1 .5
-execute in custom:skyblock at @s anchored feet run tp @s ~200 69 ~
+
 
 
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
