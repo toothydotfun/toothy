@@ -1,3 +1,3 @@
-execute in custom:hub run player JordieJordan kill
-team join Player JordieJordan
-tell @a[tag=admin] removed JordieJordan (WingsOfRedemption) & reset custom NPC functions...
+execute in custom:hub run player jordiejordan kill
+team join Player jordiejordan
+tell @a[tag=admin] removed jordiejordan (WingsOfRedemption) & reset custom NPC functions...
