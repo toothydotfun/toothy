@@ -4,5 +4,5 @@ execute as @a[tag=radio.play] run title @s[tag=radio.play] times 30 60 30
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"Kiss - I Was Made For Loving You","bold":true,"italic":true,"color":"light_purple"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/somebodythatiusedtoknow 315s
 scoreboard players set #currentSong playerCount 27
-tellraw @a[tag=radio.play] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Kiss - I Was Made For Loving You"]
+tellraw @a[tag=!muteradio] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Kiss - I Was Made For Loving You"]
 function echoes:npcs/ratlord
