@@ -5,7 +5,7 @@ tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Click any of the island types below to generate them.","color":"dark_aqua"}]
 
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Basic, Default Island (this is probably the island you want)","underlined":true,"color":"aqua","clickEvent":{"action":"run_command","value":"!skyblock generate basic_island"}}]
-tellraw @s ""tellraw @s ""
+tellraw @s ""
 tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Some other, novelty islands include...","color":"dark_aqua"}]
 tellraw @s ""
 
