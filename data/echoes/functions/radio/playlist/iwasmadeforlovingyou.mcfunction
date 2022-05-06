@@ -5,3 +5,4 @@ execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":t
 schedule function echoes:radio/playlist/somebodythatiusedtoknow 315s
 scoreboard players set #currentSong playerCount 27
 tellraw @a[tag=radio.play] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Kiss - I Was Made For Loving You"]
+function echoes:npcs/ratlord
