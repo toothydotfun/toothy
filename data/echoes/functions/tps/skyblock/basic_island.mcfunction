@@ -28,7 +28,7 @@ execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setbl
 execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~-50 ~-11 ~ minecraft:air
 execute in custom:skyblock as @a[tag=portal.spawn] at @s anchored feet run setblock ~-50 ~-10 ~ minecraft:air
 execute in custom:skyblock as @a[tag=portal.spawn] at @s run playsound entity.generic.explode master @s ~ ~ ~ 1 .5
-execute in custom:skyblock at @s anchored feet run tp @s ~-200 69 ~
+execute in custom:skyblock at @s anchored feet run tp @s ~200 69 ~
 
 
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
