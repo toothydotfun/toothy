@@ -1,5 +1,5 @@
 team join Player WingsOfRedemption
-execute unless entity @p[name=WingsOfRedemption] run schedule function echoes:npcs/remove/WingsOfRedemption 2600s
+execute unless entity @p[name=WingsOfRedemption] run schedule function echoes:npcs/remove/WingsOfRedemption 1300s
 execute unless entity @p[name=WingsOfRedemption] run schedule function echoes:npcs/speech/WingsOfRedemption/begin 109s
 execute in custom:hub run player WingsOfRedemption spawn at 2.5 171 -7.5
 kill @e[type=slime,tag=WingsOfRedemption]

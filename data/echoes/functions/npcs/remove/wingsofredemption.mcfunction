@@ -1,0 +1,3 @@
+execute in custom:hub run player WingsOfRedemption kill
+team join Player WingsOfRedemption
+tell @a[tag=admin] removed WingsOfRedemption & reset custom NPC functions...
