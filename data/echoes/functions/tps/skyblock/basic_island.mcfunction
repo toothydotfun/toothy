@@ -15,7 +15,6 @@ execute in custom:skyblock at @s anchored feet run setblock ~50 ~-10 ~ air
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ air
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
 #execute in custom:skyblock at @s anchored feet run spawnpoint
-execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-1 ~ glass
 execute at @s run particle explosion ~ ~1 ~ 0 0 0 1 0 force @a[distance=..50]
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"Welcome to the Skyblock Dimension. Your spawnpoint has NOT been set on your island. You can return to the overworld by typing !spawn.","color":"dark_aqua","bold":false}]
@@ -30,7 +29,7 @@ tag @s remove basic_island
 
 execute as @s at @s run trigger sethome add 999
 #
-#tag @s add portal.spawn
+tag @s add portal.spawn
 
-#schedule function echoes:tps/skyblock/end_portal 3s
-#schedule function echoes:tps/skyblock/nether_portal 5s
+schedule function echoes:tps/skyblock/end_portal 3s
+schedule function echoes:tps/skyblock/nether_portal 5s
