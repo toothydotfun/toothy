@@ -15,7 +15,6 @@ execute in custom:skyblock at @s anchored feet run setblock ~50 ~-10 ~ air
 execute in custom:skyblock at @s anchored feet run setblock ~ ~-10 ~ air
 execute in custom:skyblock at @s anchored feet run tp @s ~2 69 ~20
 #execute in custom:skyblock at @s anchored feet run spawnpoint
-execute in custom:skyblock at @s anchored feet run setblock ~ ~-1 ~ glass
 execute at @s run particle explosion ~ ~1 ~ 0 0 0 1 0 force @a[distance=..50]
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"Welcome to the Skyblock Dimension. Your spawnpoint has NOT been set on your island. You can return to the overworld by typing !spawn.","color":"dark_aqua","bold":false}]
 tellraw @s ["",{"text":"[] ","bold":true},{"text":"Every item in the game can be obtained by trading with the villagers some blocks away from your island.","color":"dark_aqua","bold":false}]
