@@ -133,6 +133,9 @@ team add Lieutenant
 team add President
 team add Senator
 team add homo
+team add bosnia
+team add osterreicher
+team add dansker
 
 
 team modify black color black
@@ -231,6 +234,10 @@ team modify singlemom prefix  ["",{"text":"[CAUTION - OBESE SINGLE MOM!] ","bold
 team modify specialneeds prefix  ["",{"text":"[CAUTION - SPECIAL NEEDS USER!] ","color":"yellow"}]
 team modify stick prefix ["",{"text":"[STICK-WIELDER] ","color":"green"}]
 team modify bots prefix ["",{"text":"[bot] ","color":"gray"}]
+team modify bosnia prefix ["","[",{"text":"BOSNIA","color":"#001489"},{"text":"FOREVER","color":"#FFCD00"},"] "]
+team modify osterreicher prefix ["","[",{"text":"österreicher","color":"#C8102E"},"] "]
+team modify dansker prefix ["","[",{"text":"DANSKER","color":"#C8102E"},"] "]
+
 team add cyan
 team modify cyan color dark_aqua
 team add orange
