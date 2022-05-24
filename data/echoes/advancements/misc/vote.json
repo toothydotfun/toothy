@@ -6,6 +6,7 @@
     }
   },
   "rewards": {
+    "function": "echoes:misc/remove_vote",
     "loot": [
       "echoes:vote"
     ],
