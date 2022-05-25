@@ -1,61 +1,132 @@
 {
+  "type": "minecraft:chest",
   "pools": [
     {
       "rolls": 2,
       "entries": [
         {
-          "type": "minecraft:item",
-          "weight": 1,
-          "quality": 2,
-          "name": "minecraft:diamond_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 1
-            }
-          ]
+          "type": "minecraft:tag",
+          "name": "minecraft:beds",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:ignored_by_piglin_babies",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:flowers",
+          "expand": true
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "quality": 2,
-          "name": "minecraft:emerald_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 3
-            }
-          ]
+          "name": "minecraft:emerald"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:fox_food",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:beacon_payment_items",
+          "expand": true
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "quality": 2,
-          "name": "minecraft:gold_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 2
-            }
-          ]
+          "name": "minecraft:bread"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:boats",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:creeper_drop_music_discs",
+          "expand": true
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "quality": 2,
+          "weight": 50,
+          "name": "minecraft:emerald"
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 50,
+          "name": "minecraft:candles",
+          "expand": true
+        }
+      ]
+    },
+    {
+      "rolls": 4,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:banners",
+          "expand": true
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:gold_block"
+        },
+        {
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:diamond_block"
+        }
+      ]
+    },
+    {
+      "rolls": 3,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:carpets",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:fishes",
+          "expand": true
+        },
+        {
+          "type": "minecraft:item",
           "name": "minecraft:iron_block"
+        }
+      ]
+    },
+    {
+      "rolls": 6,
+      "entries": [
+        {
+          "type": "minecraft:tag",
+          "name": "minecraft:axolotl_tempt_items",
+          "expand": true
+        },
+        {
+          "type": "minecraft:tag",
+          "weight": 50,
+          "name": "minecraft:arrows",
+          "expand": true
         },
         {
           "type": "minecraft:item",
-          "weight": 1,
-          "quality": 2,
-          "name": "minecraft:obsidian",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 10
-            }
-          ]
+          "weight": 50,
+          "name": "minecraft:emerald_block"
         }
       ]
     },
@@ -64,106 +135,33 @@
       "entries": [
         {
           "type": "minecraft:tag",
-          "name": "minecraft:beacon_payment_items"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+          "name": "minecraft:stone_crafting_materials",
+          "expand": true
+        },
         {
           "type": "minecraft:tag",
-          "name": "minecraft:slabs"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+          "name": "minecraft:flowers",
+          "expand": true
+        },
         {
-          "type": "minecraft:tag",
-          "name": "minecraft:beds"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:netherite_ingot"
+        },
         {
-          "type": "minecraft:tag",
-          "name": "minecraft:terracotta"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:netherite_sword"
+        },
         {
-          "type": "minecraft:tag",
-          "name": "minecraft:fishes"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:netherite_hoe"
+        },
         {
-          "type": "minecraft:tag",
-          "name": "minecraft:boats"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:candles"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:carpets"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:creeper_drop_music_discs"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:diamond_ores"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:walls"
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:tag",
-          "name": "minecraft:flowers"
+          "type": "minecraft:item",
+          "weight": 50,
+          "name": "minecraft:activator_rail"
         }
       ]
     }
