@@ -2,10 +2,11 @@
   "pools": [
     {
       "rolls": 2,
-      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "quality": 2,
           "name": "minecraft:diamond_block",
           "functions": [
             {
@@ -16,6 +17,8 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "quality": 2,
           "name": "minecraft:emerald_block",
           "functions": [
             {
@@ -26,6 +29,8 @@
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "quality": 2,
           "name": "minecraft:gold_block",
           "functions": [
             {
@@ -36,16 +41,14 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_block",
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": 4
-            }
-          ]
+          "weight": 1,
+          "quality": 2,
+          "name": "minecraft:iron_block"
         },
         {
           "type": "minecraft:item",
+          "weight": 1,
+          "quality": 2,
           "name": "minecraft:obsidian",
           "functions": [
             {
