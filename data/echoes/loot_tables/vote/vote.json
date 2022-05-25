@@ -7,17 +7,17 @@
         {
           "type": "minecraft:tag",
           "name": "minecraft:beds",
-
+          "expand": false
         },
         {
           "type": "minecraft:tag",
           "name": "minecraft:ignored_by_piglin_babies",
-
+          "expand": false
         },
         {
           "type": "minecraft:tag",
           "name": "minecraft:flowers",
-
+          "expand": false
         },
         {
           "type": "minecraft:item",
@@ -31,12 +31,12 @@
         {
           "type": "minecraft:tag",
           "name": "minecraft:fox_food",
-
+          "expand": false
         },
         {
           "type": "minecraft:tag",
           "name": "minecraft:beacon_payment_items",
-
+          "expand": false
         },
         {
           "type": "minecraft:item",
@@ -50,12 +50,12 @@
         {
           "type": "minecraft:tag",
           "name": "minecraft:boats",
-
+          "expand": false
         },
         {
           "type": "minecraft:tag",
           "name": "minecraft:creeper_drop_music_discs",
-
+          "expand": false
         },
         {
           "type": "minecraft:item",
@@ -66,7 +66,7 @@
           "type": "minecraft:tag",
           "weight": 50,
           "name": "minecraft:candles",
-
+          "expand": false
         }
       ]
     },
@@ -76,7 +76,7 @@
         {
           "type": "minecraft:tag",
           "name": "minecraft:banners",
-
+          "expand": false
         },
         {
           "type": "minecraft:item",
@@ -96,12 +96,12 @@
         {
           "type": "minecraft:tag",
           "name": "minecraft:carpets",
-
+          "expand": false
         },
         {
           "type": "minecraft:tag",
           "name": "minecraft:fishes",
-
+          "expand": false
         },
         {
           "type": "minecraft:item",
@@ -115,13 +115,13 @@
         {
           "type": "minecraft:tag",
           "name": "minecraft:axolotl_tempt_items",
-
+          "expand": false
         },
         {
           "type": "minecraft:tag",
           "weight": 50,
           "name": "minecraft:arrows",
-
+          "expand": false
         },
         {
           "type": "minecraft:item",
@@ -136,12 +136,12 @@
         {
           "type": "minecraft:tag",
           "name": "minecraft:stone_crafting_materials",
-
+          "expand": false
         },
         {
           "type": "minecraft:tag",
           "name": "minecraft:flowers",
-
+          "expand": false
         },
         {
           "type": "minecraft:item",
