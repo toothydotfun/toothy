@@ -4,4 +4,4 @@ execute as @a[tag=radio.play] run title @s[tag=radio.play] times 30 60 30
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"THE POLICE - EVERY BREATH YOU TAKE","bold":true,"italic":true,"color":"blue"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/comfortablynumb 238s
 scoreboard players set #currentSong playerCount 19
-tellraw @a[tag=!muteradio] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: The Police - Every Breath You Take"]
+tellraw @a[tag=radio.play]] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: The Police - Every Breath You Take"]

@@ -4,4 +4,4 @@ execute as @a[tag=radio.play] run title @s[tag=radio.play] times 30 60 30
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"Papa Roach - Last Resort","bold":true,"italic":true,"color":"yellow"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/ourhouse 203s
 scoreboard players set #currentSong playerCount 31
-tellraw @a[tag=!muteradio] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Papa Roach - Last Resort"]
+tellraw @a[tag=radio.play]] ["","<",{"text":"[bot] EchoesRadio","color":"gray"},"> Now playing on Echoes Radio: Papa Roach - Last Resort"]
