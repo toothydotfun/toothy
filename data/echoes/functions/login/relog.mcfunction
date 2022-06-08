@@ -20,3 +20,5 @@ execute if entity @p[scores={relog=1..}] as @a[tag=!radio.play] run playsound mi
 execute if entity @p[scores={relog=1..}] as @a[tag=radio.play] run playsound minecraft:block.note_block.xylophone master @s ~ ~ ~ .25 1.5
 
 scoreboard players set @s relog 0
+
+execute if entity @s[tag=!homesinfo] as @s run function echoes:misc/homesinfo
