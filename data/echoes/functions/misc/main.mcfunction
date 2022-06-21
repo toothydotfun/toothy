@@ -5,3 +5,4 @@ execute as @a[tag=minecartafk] at @s run function echoes:misc/minecartafk
 execute as @a[tag=spooky] at @s run function echoes:misc/spooky
 
 function echoes:misc/vote_loot
+function echoes:misc/targets
