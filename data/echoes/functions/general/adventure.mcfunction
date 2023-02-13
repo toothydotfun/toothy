@@ -10,9 +10,9 @@ tellraw @s[nbt={Dimension:"custom:skyblock"}] ["",{"text":"[] ","color":"white"}
 tellraw @s[nbt={Dimension:"custom:skyblock"}] ["",{"text":"[] ","color":"white"},{"text":"To leave here, type !hub or !spawn.","color":"dark_aqua"}]
 
 
-advancement revoke @s only echoes:gamemodes/hub
-advancement revoke @s only echoes:gamemodes/art
-advancement revoke @s only echoes:gamemodes/dungeons
+#advancement revoke @s only echoes:gamemodes/hub
+#advancement revoke @s only echoes:gamemodes/art
+#advancement revoke @s only echoes:gamemodes/dungeons
 
 #advancement revoke @s only echoes:teleports/hub/donor
 advancement revoke @s only echoes:teleports/hub/skyblock

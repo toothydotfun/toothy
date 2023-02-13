@@ -8,6 +8,6 @@
 function echoes:spawn/spawnban/main
 function echoes:spawn/dimension/main
 
-function echoes:spawn/teleports/main
+#function echoes:spawn/teleports/main
 
 spreadplayers 0 0 1 38 false @a[x=0,y=256,z=0,distance=..2,gamemode=survival]
