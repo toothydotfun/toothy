@@ -1,5 +1,5 @@
 execute as @a[tag=radio.play] run stopsound @s[tag=radio.play] music
-execute as @a[tag=radio.play] at @s[tag=radio.play] run playsound minecraft:igetalong @s[tag=radio.play]
+execute as @a[tag=radio.play] at @s[tag=radio.play] run playsound minecraft:igetalong master @s[tag=radio.play]
 execute as @a[tag=radio.play] run title @s[tag=radio.play] times 30 60 30
 execute as @a[tag=radio.play] run title @s actionbar ["",{"text":"--==","bold":true,"color":"dark_gray"},{"text":"NOW PLAYING: ","bold":true,"italic":true,"color":"dark_gray"},{"text":"Chet Baker - I Get Along Without You Very Well","bold":true,"italic":true,"color":"yellow"},{"text":"==--","bold":true,"color":"dark_aqua"}]
 schedule function echoes:radio/playlist/personalissue 186s
