@@ -8,7 +8,6 @@ schedule clear echoes:radio/playlist/missmarlene
 schedule clear echoes:radio/playlist/yourgoldteeth
 schedule clear echoes:radio/playlist/herecomesthesun
 
-schedule clear echoes:radio/playlist/takeonme
 schedule clear echoes:radio/playlist/touchofgrey
 schedule clear echoes:radio/playlist/karmapolice
 
@@ -20,7 +19,7 @@ schedule clear echoes:radio/playlist/thismustbe
 schedule clear echoes:radio/playlist/bigiron
 schedule clear echoes:radio/playlist/comesailaway
 schedule clear echoes:radio/playlist/planetdrhonda
-
+schedule clear echoes:radio/playlist/altanai
 schedule clear echoes:radio/playlist/whatilike
 schedule clear echoes:radio/playlist/hereatthewesternworld
 
