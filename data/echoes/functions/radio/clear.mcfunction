@@ -1,26 +1,26 @@
 stopsound @a master
 schedule clear echoes:radio/playlist/africa
-schedule clear echoes:radio/playlist/transisland
+
 schedule clear echoes:radio/playlist/closetome
 
 schedule clear echoes:radio/playlist/dontfearthereaper
 schedule clear echoes:radio/playlist/missmarlene
 schedule clear echoes:radio/playlist/yourgoldteeth
 schedule clear echoes:radio/playlist/herecomesthesun
-schedule clear echoes:radio/playlist/smokeonthewater
+
 schedule clear echoes:radio/playlist/takeonme
 schedule clear echoes:radio/playlist/touchofgrey
 schedule clear echoes:radio/playlist/karmapolice
-schedule clear echoes:radio/playlist/knivesout
+
 schedule clear echoes:radio/playlist/herecomesyourman
-schedule clear echoes:radio/playlist/everybreathyoutake
+
 schedule clear echoes:radio/playlist/comfortablynumb
 schedule clear echoes:radio/playlist/aqualung
 schedule clear echoes:radio/playlist/thismustbe
 schedule clear echoes:radio/playlist/bigiron
 schedule clear echoes:radio/playlist/comesailaway
 schedule clear echoes:radio/playlist/planetdrhonda
-schedule clear echoes:radio/playlist/buttercup
+
 schedule clear echoes:radio/playlist/whatilike
 schedule clear echoes:radio/playlist/hereatthewesternworld
 
@@ -41,7 +41,7 @@ schedule clear echoes:radio/playlist/searching
 schedule clear echoes:radio/playlist/whatshebuilding
 schedule clear echoes:radio/playlist/whativedone
 schedule clear echoes:radio/playlist/numb
-schedule clear echoes:radio/playlist/breakmystride
+
 schedule clear echoes:radio/playlist/westofhollywood
 schedule clear echoes:radio/playlist/bringmetolife
 schedule clear echoes:radio/playlist/sopranos
@@ -51,7 +51,7 @@ schedule clear echoes:radio/playlist/ruchey
 schedule clear echoes:radio/playlist/lamer
 schedule clear echoes:radio/playlist/runningwild
 
-schedule clear echoes:radio/playlist/iloveyoumary
+
 schedule clear echoes:radio/playlist/againstit
 schedule clear echoes:radio/playlist/loveletters
 schedule clear echoes:radio/playlist/moans
