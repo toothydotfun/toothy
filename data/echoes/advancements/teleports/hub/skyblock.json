@@ -5,17 +5,18 @@
       "conditions": {
         "player": {
           "type": "minecraft:player",
-          "player": {
+          "type_specific": {
+            "type": "player",
             "gamemode": "adventure"
-          }
-        },
-        "location": {
-          "position": {
-            "x": -0.5,
-            "y": 129,
-            "z": 17.5
           },
-          "dimension": "custom:hub"
+          "location": {
+            "position": {
+              "x": -0.5,
+              "y": 129,
+              "z": 17.5
+            },
+            "dimension": "custom:hub"
+          }
         }
       }
     }

@@ -3,7 +3,7 @@ execute unless entity @p[name=johnlennon] run schedule function echoes:npcs/remo
 execute unless entity @p[name=johnlennon] run schedule function echoes:npcs/speech/johnlennon/start 2s
 execute at @s unless entity @p[name=johnlennon] run player JohnLennon spawn
 kill @e[type=slime,tag=johnlennon]
-#summon slime -38136 195 -45050 {NoGravity:1b,Silent:1b,Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,NoAI:1b,Size:0,Tags:["elliotrodger"],CustomName:'{"text":"\\\\/ Elliot Rodger \\\\/","color":"green","bold":true}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:1000000,ShowParticles:0b}]}
+#summon slime -38136 195 -45050 {NoGravity:1b,Silent:1b,Invulnerable:1b,Glowing:1b,CustomNameVisible:1b,NoAI:1b,Size:0,Tags:["elliotrodger"],CustomName:'{"text":"\\\\/ Elliot Rodger \\\\/","color":"green","bold":true}',ActiveEffects:[{Id:14,Amplifier:1b,Duration:1000000,ShowParticles:0b}]}
 
 team join Player JohnLennon
 gamemode survival JohnLennon
