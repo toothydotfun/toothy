@@ -2,12 +2,12 @@ scoreboard objectives add playerCount dummy
 scoreboard players add CONTROL playerCount 1
 tellraw _saltshaker ["",{"text":"CATALOGUE12: "},{"selector":"@s"}]
 
-tellraw @a[team=!] ["",{"text":"[] ","bold":true,"color":"white"},{"selector":"@s","color":"aqua","hoverEvent":{"action":"show_text","contents":{"text":"pooping right now","color":"aqua"}}},{"text":" just joined Echoes for the first time. Say howdy! This makes ","color":"aqua","clickEvent":{"action":"run_command","value":"howdy"},"hoverEvent":{"action":"show_text","contents":{"text":"click here to say hi!","color":"aqua"}}},{"score":{"name":"CONTROL","objective":"playerCount"},"color":"aqua"},{"text":" unique logins since February 20th of 2023!","color":"aqua"}]
-tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Welcome to Echoes: Vanilla. Feel free to join our Discord: ","color":"aqua"},{"text":"https://echoes.fun/discord","color":"dark_aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://echoes.fun/discord"}}]
+tellraw @a[team=!] ["",{"text":"[] ","bold":true,"color":"white"},{"selector":"@s","color":"aqua","hoverEvent":{"action":"show_text","contents":{"text":"pooping right now","color":"aqua"}}},{"text":" just joined Swim for the first time. Say howdy! This makes ","color":"aqua","clickEvent":{"action":"run_command","value":"howdy"},"hoverEvent":{"action":"show_text","contents":{"text":"click here to say hi!","color":"aqua"}}},{"score":{"name":"CONTROL","objective":"playerCount"},"color":"aqua"},{"text":" unique logins since February 20th of 2023!","color":"aqua"}]
+tellraw @s ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Welcome to Swim. Feel free to join our Discord: ","color":"aqua"},{"text":"https://swimserver.net/discord","color":"dark_aqua","underlined":true,"clickEvent":{"action":"open_url","value":"https://swimserver.net/discord"}}]
 tellraw @s ""
 tellraw @s ["",{"text":"===================","color":"dark_aqua","strikethrough":true}]
 title @s times 15 60 15
-title @s title ["",{"text":"Welcome to echoes.","color":"aqua"}]
+title @s title ["",{"text":"Welcome to Swim.","color":"aqua"}]
 title @s subtitle ["",{"text":"A tutorial will appear in chat shortly.","color":"dark_aqua"}]
 tag @s add tutorial.help
 schedule function echoes:login/welcome/tutorial/help 15s
