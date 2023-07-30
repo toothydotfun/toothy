@@ -5,6 +5,6 @@ tellraw @a[tag=tutorial.wild] ["",{"text":"[] ","bold":true,"color":"white"},{"t
 
 #tellraw @a[tag=tutorial.wild] ["",{"text":"[] ","bold":true,"color":"white"},{"text":"Click here to teleport to a new location, if you desire. (5/9).","underlined":true,"color":"#4ABFBF","clickEvent":{"action":"run_command","value":"!rtp"}}]
 tellraw @a[tag=tutorial.wild] ""
-tag @a[tag=tutorial.wild] add tutorial.radio
-tag @a[tag=tutorial.wild] remove tutorial.fin
+tag @a[tag=tutorial.wild] add tutorial.fin
+tag @a[tag=tutorial.wild] remove tutorial.wild
 schedule function echoes:login/welcome/tutorial/fin 15s
